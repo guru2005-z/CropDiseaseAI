@@ -127,26 +127,7 @@ class PredictionResponse(BaseModel):
 # --- Endpoints ---
 
 
-@app.get("/", response_model=HealthResponse, tags=["General"])
-def root() -> HealthResponse:
-    """Service status and greeting."""
-    return HealthResponse(
-        status="healthy",
-        message="CropDiseaseAI service is operational.",
-        version="0.1.0",
-    )
-
-
-@app.get("/health", response_model=HealthResponse, tags=["General"])
-def health_check() -> HealthResponse:
-    """Readiness and liveness probe."""
-    return HealthResponse(
-        status="healthy",
-        message="Service is running.",
-        version="0.1.0",
-    )
-
-
+@app.get("/", response_class=HTMLResponse, tags=["UI"])
 @app.get("/ui", response_class=HTMLResponse, tags=["UI"])
 @app.get("/app", response_class=HTMLResponse, tags=["UI"])
 def serve_ui() -> HTMLResponse:
@@ -157,6 +138,17 @@ def serve_ui() -> HTMLResponse:
             detail="UI template not found.",
         )
     return HTMLResponse(content=_index_html_path.read_text(encoding="utf-8"))
+
+
+@app.get("/health", response_model=HealthResponse, tags=["General"])
+@app.get("/status", response_model=HealthResponse, tags=["General"])
+def health_check() -> HealthResponse:
+    """Readiness and liveness probe."""
+    return HealthResponse(
+        status="healthy",
+        message="CropDiseaseAI service is operational.",
+        version="0.1.0",
+    )
 
 
 @app.get("/crops", response_model=List[CropInfo], tags=["Crops"])
