@@ -1,0 +1,87 @@
+{
+  "crop": "groundnut",
+  "model_architecture": "EfficientNetB0 (Two-Stage Transfer Learning)",
+  "test_sample_count": 459,
+  "accuracy": 0.8105,
+  "macro_precision": 0.8041,
+  "macro_recall": 0.8391,
+  "macro_f1": 0.8181,
+  "weighted_f1": 0.8108,
+  "per_class": {
+    "early_leaf_spot": {
+      "precision": 0.7101,
+      "recall": 0.7368,
+      "f1_score": 0.7232,
+      "support": 133
+    },
+    "healthy": {
+      "precision": 0.8279,
+      "recall": 0.7266,
+      "f1_score": 0.7739,
+      "support": 139
+    },
+    "late_leaf_spot": {
+      "precision": 0.9706,
+      "recall": 0.9519,
+      "f1_score": 0.9612,
+      "support": 104
+    },
+    "nutrition_deficiency": {
+      "precision": 0.8302,
+      "recall": 0.898,
+      "f1_score": 0.8627,
+      "support": 49
+    },
+    "rust": {
+      "precision": 0.6818,
+      "recall": 0.8824,
+      "f1_score": 0.7692,
+      "support": 34
+    }
+  },
+  "confusion_matrix": [
+    [
+      98,
+      18,
+      3,
+      5,
+      9
+    ],
+    [
+      36,
+      101,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      99,
+      0,
+      3
+    ],
+    [
+      3,
+      0,
+      0,
+      44,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      2,
+      30
+    ]
+  ],
+  "class_names": [
+    "early_leaf_spot",
+    "healthy",
+    "late_leaf_spot",
+    "nutrition_deficiency",
+    "rust"
+  ],
+  "misclassified_count": 87
+}

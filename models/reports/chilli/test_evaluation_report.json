@@ -1,0 +1,106 @@
+{
+  "crop": "chilli",
+  "model_architecture": "EfficientNetB0 (Two-Stage Transfer Learning)",
+  "test_sample_count": 279,
+  "overall_accuracy": 0.9892,
+  "macro_precision": 0.9884,
+  "macro_recall": 0.9858,
+  "macro_f1": 0.9869,
+  "weighted_f1": 0.9892,
+  "classes": [
+    "bacterial_spot",
+    "cercospora_leaf_spot",
+    "curl_virus",
+    "healthy",
+    "nutrition_deficiency",
+    "white_spot"
+  ],
+  "per_class": {
+    "bacterial_spot": {
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1_score": 0.9796,
+      "support": 24
+    },
+    "cercospora_leaf_spot": {
+      "precision": 1.0,
+      "recall": 0.963,
+      "f1_score": 0.9811,
+      "support": 27
+    },
+    "curl_virus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 64
+    },
+    "healthy": {
+      "precision": 0.9853,
+      "recall": 0.9853,
+      "f1_score": 0.9853,
+      "support": 68
+    },
+    "nutrition_deficiency": {
+      "precision": 0.9851,
+      "recall": 1.0,
+      "f1_score": 0.9925,
+      "support": 66
+    },
+    "white_spot": {
+      "precision": 1.0,
+      "recall": 0.9667,
+      "f1_score": 0.9831,
+      "support": 30
+    }
+  },
+  "confusion_matrix": [
+    [
+      24,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      26,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      64,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      67,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      66,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      29
+    ]
+  ]
+}

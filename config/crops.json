@@ -1,0 +1,114 @@
+{
+  "crops": {
+    "paddy": {
+      "display_name": "Paddy / Rice",
+      "model_path": "models/paddy_model.keras",
+      "image_size": [
+        224,
+        224
+      ],
+      "class_names": [
+        "bacterial_leaf_blight",
+        "bacterial_leaf_streak",
+        "bacterial_panicle_blight",
+        "blast",
+        "brown_spot",
+        "dead_heart",
+        "downy_mildew",
+        "hispa",
+        "normal",
+        "tungro"
+      ],
+      "confidence_threshold": 0.65,
+      "status": "ready",
+      "notes": "Trained EfficientNetB0 model on Paddy Doctor dataset (10 classes)."
+    },
+    "maize": {
+      "display_name": "Maize / Corn",
+      "model_path": "models/maize_model.keras",
+      "image_size": [
+        224,
+        224
+      ],
+      "class_names": [
+        "common_rust",
+        "gray_leaf_spot",
+        "healthy",
+        "northern_leaf_blight"
+      ],
+      "confidence_threshold": 0.6,
+      "status": "ready",
+      "notes": "Trained EfficientNetB0 model on Maize leaf disease dataset (4 classes)."
+    },
+    "groundnut": {
+      "display_name": "Groundnut / Peanut",
+      "model_path": "models/groundnut_model.keras",
+      "image_size": [
+        224,
+        224
+      ],
+      "class_names": [
+        "early_leaf_spot",
+        "healthy",
+        "late_leaf_spot",
+        "nutrition_deficiency",
+        "rust"
+      ],
+      "confidence_threshold": 0.6,
+      "status": "ready",
+      "notes": "Trained EfficientNetB0 model on Groundnut leaf disease dataset (5 classes)."
+    },
+    "chilli": {
+      "display_name": "Chilli / Pepper",
+      "model_path": "models/chilli_model.keras",
+      "image_size": [
+        224,
+        224
+      ],
+      "class_names": [
+        "bacterial_spot",
+        "cercospora_leaf_spot",
+        "curl_virus",
+        "healthy",
+        "nutrition_deficiency",
+        "white_spot"
+      ],
+      "confidence_threshold": 0.6,
+      "status": "ready",
+      "notes": "Trained EfficientNetB0 model on Chilli leaf disease dataset (6 classes)."
+    },
+    "banana": {
+      "display_name": "Banana / Plantain",
+      "scientific_name": "Musa acuminata / Musa balbisiana",
+      "model_path": "models/banana_model.keras",
+      "image_size": [
+        224,
+        224
+      ],
+      "class_names": [
+        "cordana_leaf_spot",
+        "healthy",
+        "pestalotiopsis_leaf_spot",
+        "sigatoka_leaf_spot"
+      ],
+      "confidence_threshold": 0.6,
+      "description": "Banana foliar disease diagnostic module covering major fungal spot complexes (Cordana, Pestalotiopsis, Sigatoka) and healthy foliage."
+    },
+    "wheat": {
+      "display_name": "Wheat / Cereal",
+      "scientific_name": "Triticum aestivum",
+      "model_path": "models/wheat_model.keras",
+      "image_size": [
+        224,
+        224
+      ],
+      "class_names": [
+        "healthy",
+        "leaf_rust",
+        "nitrogen_deficiency"
+      ],
+      "confidence_threshold": 0.6,
+      "description": "Wheat diagnostic module detecting leaf rust (Puccinia triticina), nitrogen deficiency, and healthy wheat foliage."
+    }
+  }
+}

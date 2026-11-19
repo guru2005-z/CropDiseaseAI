@@ -1,0 +1,11 @@
+                      precision    recall  f1-score   support
+
+     early_leaf_spot     0.7101    0.7368    0.7232       133
+             healthy     0.8279    0.7266    0.7739       139
+      late_leaf_spot     0.9706    0.9519    0.9612       104
+nutrition_deficiency     0.8302    0.8980    0.8627        49
+                rust     0.6818    0.8824    0.7692        34
+
+            accuracy                         0.8105       459
+           macro avg     0.8041    0.8391    0.8181       459
+        weighted avg     0.8155    0.8105    0.8108       459

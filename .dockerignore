@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.keras/
+datasets/
+raw_data/
+scratch/
+.git/
+.gitignore
+.env
+tests/
+training/
+reports/
+*.md

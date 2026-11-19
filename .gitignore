@@ -1,0 +1,32 @@
+# Environments & Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.keras/
+
+# Training Datasets (Not needed in production inference)
+datasets/
+raw_data/
+*.zip
+*.tar.gz
+
+# Scratch & Logs
+scratch/
+*.log
+*.bak
+*.phase3_2.bak
+.env
+.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep trained model files
+!models/*.keras
+!models/*.json
+!models/*.weights.h5

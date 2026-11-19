@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: cropdiseaseai
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    healthCheckPath: /crops
+    autoDeploy: true
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: PINECONE_INDEX_NAME
+        value: cropdisease-rag
+      - key: PINECONE_NAMESPACE
+        value: agricultural-rag

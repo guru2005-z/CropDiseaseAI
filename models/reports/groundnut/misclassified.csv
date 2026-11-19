@@ -1,0 +1,88 @@
+image_id,image_path,true_label,predicted_label,true_probability,predicted_probability
+IMG_0809.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_0809.JPG,early_leaf_spot,healthy,0.47760000824928284,0.5202999711036682
+IMG_0888.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_0888.JPG,early_leaf_spot,nutrition_deficiency,0.053700000047683716,0.9397000074386597
+IMG_0897.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_0897.JPG,early_leaf_spot,healthy,0.06289999932050705,0.9143000245094299
+IMG_1088.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_1088.JPG,early_leaf_spot,healthy,0.44369998574256897,0.5060999989509583
+IMG_1090.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_1090.JPG,early_leaf_spot,healthy,0.40290001034736633,0.5791000127792358
+IMG_1403.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_1403.JPG,early_leaf_spot,healthy,0.1574999988079071,0.8328999876976013
+IMG_1723.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_1723.JPG,early_leaf_spot,healthy,0.3955000042915344,0.5929999947547913
+IMG_1724.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_1724.JPG,early_leaf_spot,healthy,0.29159998893737793,0.7078999876976013
+IMG_1745.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_1745.JPG,early_leaf_spot,healthy,0.22349999845027924,0.7718999981880188
+IMG_2086.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2086.JPG,early_leaf_spot,healthy,0.39629998803138733,0.5996000170707703
+IMG_2160.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2160.JPG,early_leaf_spot,healthy,0.13899999856948853,0.8511999845504761
+IMG_2168.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2168.JPG,early_leaf_spot,healthy,0.19120000302791595,0.8047999739646912
+IMG_2169.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2169.JPG,early_leaf_spot,healthy,0.16580000519752502,0.8284000158309937
+IMG_2234.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2234.JPG,early_leaf_spot,rust,0.1776999980211258,0.7229999899864197
+IMG_2714.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2714.JPG,early_leaf_spot,healthy,0.41290000081062317,0.5141000151634216
+IMG_2754.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2754.JPG,early_leaf_spot,rust,0.3637999892234802,0.6187000274658203
+IMG_2801.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_2801.JPG,early_leaf_spot,rust,0.2831000089645386,0.6729000210762024
+IMG_3027.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3027.JPG,early_leaf_spot,nutrition_deficiency,0.19470000267028809,0.7107999920845032
+IMG_3034.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3034.JPG,early_leaf_spot,rust,0.3693000078201294,0.6225000023841858
+IMG_3470.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3470.JPG,early_leaf_spot,healthy,0.46160000562667847,0.4717000126838684
+IMG_3479.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3479.JPG,early_leaf_spot,late_leaf_spot,0.33869999647140503,0.5162000060081482
+IMG_3492.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3492.JPG,early_leaf_spot,late_leaf_spot,0.45879998803138733,0.5184000134468079
+IMG_3613.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3613.JPG,early_leaf_spot,rust,0.04899999871850014,0.8622999787330627
+IMG_3652.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3652.JPG,early_leaf_spot,healthy,0.30149999260902405,0.6862999796867371
+IMG_3663.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3663.JPG,early_leaf_spot,nutrition_deficiency,0.44519999623298645,0.4713999927043915
+IMG_3709.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_3709.JPG,early_leaf_spot,healthy,0.2386000007390976,0.7501000165939331
+IMG_4256.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4256.JPG,early_leaf_spot,late_leaf_spot,0.039000000804662704,0.9309999942779541
+IMG_4265.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4265.JPG,early_leaf_spot,healthy,0.3425999879837036,0.6381000280380249
+IMG_4281.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4281.JPG,early_leaf_spot,rust,0.1340000033378601,0.6913999915122986
+IMG_4323.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4323.JPG,early_leaf_spot,healthy,0.2492000013589859,0.6859999895095825
+IMG_4359.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4359.JPG,early_leaf_spot,rust,0.33230000734329224,0.6485999822616577
+IMG_4402.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4402.JPG,early_leaf_spot,rust,0.05299999937415123,0.9437000155448914
+IMG_4408.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4408.JPG,early_leaf_spot,rust,0.20829999446868896,0.7764999866485596
+IMG_4478.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4478.JPG,early_leaf_spot,nutrition_deficiency,0.2897999882698059,0.669700026512146
+IMG_4479.JPG,datasets/raw/groundnut/Raw_Data/early_leaf_spot/IMG_4479.JPG,early_leaf_spot,nutrition_deficiency,0.2924000024795532,0.6912999749183655
+IMG_0422.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_0422.JPG,healthy,nutrition_deficiency,0.23019999265670776,0.673799991607666
+IMG_0556.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_0556.JPG,healthy,early_leaf_spot,0.45730000734329224,0.5368000268936157
+IMG_0994.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_0994.JPG,healthy,early_leaf_spot,0.23360000550746918,0.7615000009536743
+IMG_1007.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1007.JPG,healthy,early_leaf_spot,0.39719998836517334,0.5982000231742859
+IMG_1049.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1049.JPG,healthy,early_leaf_spot,0.1940000057220459,0.6991999745368958
+IMG_1330.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1330.JPG,healthy,early_leaf_spot,0.015599999576807022,0.7886999845504761
+IMG_1343.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1343.JPG,healthy,early_leaf_spot,0.10339999943971634,0.7576000094413757
+IMG_1344.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1344.JPG,healthy,early_leaf_spot,0.06719999760389328,0.7738000154495239
+IMG_1345.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1345.JPG,healthy,early_leaf_spot,0.16680000722408295,0.8019000291824341
+IMG_1383.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1383.JPG,healthy,early_leaf_spot,0.33399999141693115,0.6546000242233276
+IMG_1467.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1467.JPG,healthy,early_leaf_spot,0.3327000141143799,0.6635000109672546
+IMG_1470.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1470.JPG,healthy,early_leaf_spot,0.17489999532699585,0.7968000173568726
+IMG_1595.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1595.JPG,healthy,early_leaf_spot,0.4327999949455261,0.5152999758720398
+IMG_1623.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_1623.JPG,healthy,early_leaf_spot,0.41190001368522644,0.5167999863624573
+IMG_2100.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2100.JPG,healthy,early_leaf_spot,0.4361000061035156,0.5090000033378601
+IMG_2104.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2104.JPG,healthy,early_leaf_spot,0.21209999918937683,0.7692000269889832
+IMG_2221.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2221.JPG,healthy,early_leaf_spot,0.22210000455379486,0.7567999958992004
+IMG_2232.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2232.JPG,healthy,early_leaf_spot,0.26420000195503235,0.5666000247001648
+IMG_2244.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2244.JPG,healthy,early_leaf_spot,0.47780001163482666,0.4796999990940094
+IMG_2268.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2268.JPG,healthy,early_leaf_spot,0.11760000139474869,0.828499972820282
+IMG_2287.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2287.JPG,healthy,early_leaf_spot,0.07159999758005142,0.6524999737739563
+IMG_2694.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2694.JPG,healthy,early_leaf_spot,0.4154999852180481,0.49059998989105225
+IMG_2769.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2769.JPG,healthy,early_leaf_spot,0.20819999277591705,0.6793000102043152
+IMG_2774.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2774.JPG,healthy,early_leaf_spot,0.2515999972820282,0.5126000046730042
+IMG_2776.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2776.JPG,healthy,early_leaf_spot,0.24950000643730164,0.6208999752998352
+IMG_2782.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2782.JPG,healthy,early_leaf_spot,0.31940001249313354,0.6449000239372253
+IMG_2929.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2929.JPG,healthy,early_leaf_spot,0.28929999470710754,0.669700026512146
+IMG_2933.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2933.JPG,healthy,early_leaf_spot,0.15610000491142273,0.4675999879837036
+IMG_2943.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2943.JPG,healthy,early_leaf_spot,0.46869999170303345,0.46959999203681946
+IMG_2947.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2947.JPG,healthy,early_leaf_spot,0.2484000027179718,0.6022999882698059
+IMG_2974.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_2974.JPG,healthy,nutrition_deficiency,0.2728999853134155,0.42160001397132874
+IMG_3012.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_3012.JPG,healthy,early_leaf_spot,0.023099999874830246,0.9610000252723694
+IMG_3016.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_3016.JPG,healthy,early_leaf_spot,0.2386000007390976,0.7253000140190125
+IMG_3603.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_3603.JPG,healthy,early_leaf_spot,0.41909998655319214,0.5799999833106995
+IMG_3639.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_3639.JPG,healthy,early_leaf_spot,0.11129999905824661,0.6632999777793884
+IMG_4231.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_4231.JPG,healthy,early_leaf_spot,0.3231000006198883,0.5442000031471252
+IMG_4236.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_4236.JPG,healthy,early_leaf_spot,0.27570000290870667,0.5587000250816345
+IMG_4307.JPG,datasets/raw/groundnut/Raw_Data/healthy leaf/IMG_4307.JPG,healthy,early_leaf_spot,0.3968000113964081,0.5717999935150146
+IMG_3128.JPG,datasets/raw/groundnut/Raw_Data/late leaf spot/IMG_3128.JPG,late_leaf_spot,rust,0.016599999740719795,0.8159999847412109
+IMG_3129.JPG,datasets/raw/groundnut/Raw_Data/late leaf spot/IMG_3129.JPG,late_leaf_spot,rust,0.025699999183416367,0.6847000122070312
+IMG_5463.JPG,datasets/raw/groundnut/Raw_Data/late leaf spot/IMG_5463.JPG,late_leaf_spot,healthy,0.3199999928474426,0.5196999907493591
+IMG_5807.JPG,datasets/raw/groundnut/Raw_Data/late leaf spot/IMG_5807.JPG,late_leaf_spot,rust,0.039900001138448715,0.666700005531311
+IMG_6207.JPG,datasets/raw/groundnut/Raw_Data/late leaf spot/IMG_6207.JPG,late_leaf_spot,healthy,0.3440000116825104,0.47839999198913574
+IMG_3178.JPG,datasets/raw/groundnut/Raw_Data/nutrition deficiency/IMG_3178.JPG,nutrition_deficiency,early_leaf_spot,0.30160000920295715,0.353300005197525
+IMG_3181.JPG,datasets/raw/groundnut/Raw_Data/nutrition deficiency/IMG_3181.JPG,nutrition_deficiency,early_leaf_spot,0.3560999929904938,0.46389999985694885
+IMG_3184.JPG,datasets/raw/groundnut/Raw_Data/nutrition deficiency/IMG_3184.JPG,nutrition_deficiency,early_leaf_spot,0.328000009059906,0.390500009059906
+IMG_5711.JPG,datasets/raw/groundnut/Raw_Data/nutrition deficiency/IMG_5711.JPG,nutrition_deficiency,rust,0.17419999837875366,0.5360000133514404
+IMG_5712.JPG,datasets/raw/groundnut/Raw_Data/nutrition deficiency/IMG_5712.JPG,nutrition_deficiency,rust,0.02630000002682209,0.7910000085830688
+IMG_8869.JPG,datasets/raw/groundnut/Raw_Data/rust/IMG_8869.JPG,rust,healthy,0.04670000076293945,0.47609999775886536
+IMG_8884.JPG,datasets/raw/groundnut/Raw_Data/rust/IMG_8884.JPG,rust,nutrition_deficiency,0.38019999861717224,0.49939998984336853
+IMG_8892.JPG,datasets/raw/groundnut/Raw_Data/rust/IMG_8892.JPG,rust,early_leaf_spot,0.11949999630451202,0.6309000253677368
+IMG_8917.JPG,datasets/raw/groundnut/Raw_Data/rust/IMG_8917.JPG,rust,nutrition_deficiency,0.01720000058412552,0.9671000242233276

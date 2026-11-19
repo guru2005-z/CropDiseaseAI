@@ -1,0 +1,52 @@
+{
+  "crop": "wheat",
+  "model_architecture": "EfficientNetB0 (Two-Stage Transfer Learning)",
+  "test_sample_count": 208,
+  "overall_accuracy": 0.9471,
+  "macro_precision": 0.9543,
+  "macro_recall": 0.9174,
+  "macro_f1": 0.9338,
+  "weighted_f1": 0.9462,
+  "classes": [
+    "healthy",
+    "leaf_rust",
+    "nitrogen_deficiency"
+  ],
+  "per_class": {
+    "healthy": {
+      "precision": 0.9274,
+      "recall": 0.9829,
+      "f1_score": 0.9544,
+      "support": 117
+    },
+    "leaf_rust": {
+      "precision": 1.0,
+      "recall": 0.9636,
+      "f1_score": 0.9815,
+      "support": 55
+    },
+    "nitrogen_deficiency": {
+      "precision": 0.9355,
+      "recall": 0.8056,
+      "f1_score": 0.8657,
+      "support": 36
+    }
+  },
+  "confusion_matrix": [
+    [
+      115,
+      0,
+      2
+    ],
+    [
+      2,
+      53,
+      0
+    ],
+    [
+      7,
+      0,
+      29
+    ]
+  ]
+}

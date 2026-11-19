@@ -1,0 +1,128 @@
+{
+  "crop": "maize",
+  "test_samples_total": 628,
+  "overall_accuracy": 0.9204,
+  "macro_precision": 0.9135,
+  "macro_recall": 0.8886,
+  "macro_f1": 0.8968,
+  "weighted_precision": 0.9253,
+  "weighted_recall": 0.9204,
+  "weighted_f1": 0.9195,
+  "best_performing_class": {
+    "class": "healthy",
+    "f1_score": 0.9884
+  },
+  "worst_performing_class": {
+    "class": "gray_leaf_spot",
+    "f1_score": 0.7532
+  },
+  "per_class_metrics": {
+    "common_rust": {
+      "precision": 0.9893,
+      "recall": 0.9439,
+      "f1_score": 0.9661,
+      "support": 196
+    },
+    "gray_leaf_spot": {
+      "precision": 0.8529,
+      "recall": 0.6744,
+      "f1_score": 0.7532,
+      "support": 86
+    },
+    "healthy": {
+      "precision": 1.0,
+      "recall": 0.9771,
+      "f1_score": 0.9884,
+      "support": 175
+    },
+    "northern_leaf_blight": {
+      "precision": 0.8119,
+      "recall": 0.9591,
+      "f1_score": 0.8794,
+      "support": 171
+    }
+  },
+  "top_confused_pairs": [
+    {
+      "true_class": "gray_leaf_spot",
+      "predicted_class": "northern_leaf_blight",
+      "count": 27
+    },
+    {
+      "true_class": "common_rust",
+      "predicted_class": "northern_leaf_blight",
+      "count": 8
+    },
+    {
+      "true_class": "northern_leaf_blight",
+      "predicted_class": "gray_leaf_spot",
+      "count": 7
+    },
+    {
+      "true_class": "common_rust",
+      "predicted_class": "gray_leaf_spot",
+      "count": 3
+    },
+    {
+      "true_class": "healthy",
+      "predicted_class": "northern_leaf_blight",
+      "count": 3
+    },
+    {
+      "true_class": "gray_leaf_spot",
+      "predicted_class": "common_rust",
+      "count": 1
+    },
+    {
+      "true_class": "healthy",
+      "predicted_class": "common_rust",
+      "count": 1
+    }
+  ],
+  "confidence_analysis": {
+    "mean_confidence_correct": 0.9364,
+    "mean_confidence_incorrect": 0.6835,
+    "confidence_distribution": {
+      "min": 0.3699,
+      "max": 1.0,
+      "mean": 0.9162,
+      "std": 0.1334,
+      "median": 0.9829,
+      "q25": 0.9045,
+      "q75": 0.9967
+    },
+    "confidence_brackets": {
+      "below_0.50": 13,
+      "0.50_to_0.70": 48,
+      "0.70_to_0.90": 92,
+      "0.90_to_1.00": 475
+    }
+  },
+  "misclassified_samples_count": 50,
+  "confusion_matrix": [
+    [
+      185,
+      3,
+      0,
+      8
+    ],
+    [
+      1,
+      58,
+      0,
+      27
+    ],
+    [
+      1,
+      0,
+      171,
+      3
+    ],
+    [
+      0,
+      7,
+      0,
+      164
+    ]
+  ]
+}

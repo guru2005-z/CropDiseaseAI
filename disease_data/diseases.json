@@ -1,0 +1,1452 @@
+{
+  "diseases": [
+    {
+      "crop": "paddy",
+      "disease_id": "normal",
+      "display_name": "Healthy Paddy Plant",
+      "scientific_name": "Oryza sativa (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Vibrant green leaves without discoloration, lesions, or wilting",
+        "Normal vegetative and reproductive growth appropriate for plant age",
+        "Intact leaf sheaths and sturdy erect tillers"
+      ],
+      "possible_causes": [],
+      "prevention": [
+        "Maintain standard balanced nutrient management (NPK based on soil test)",
+        "Practice alternate wetting and drying (AWD) water management",
+        "Regular field monitoring and routine crop scouting"
+      ],
+      "management": [
+        "Continue routine cultural care and balanced fertilizer scheduling"
+      ],
+      "organic_management": [
+        "Maintain soil organic health and beneficial microbial biodiversity through compost and green manuring"
+      ],
+      "chemical_management": [
+        "None required for healthy crops"
+      ],
+      "severity_notes": "Not applicable - plant displays healthy vegetative growth traits.",
+      "source": "Standard Agronomic Field Guidelines (IRRI / ICAR Rice Knowledge Bank)",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "healthy",
+      "display_name": "Healthy Paddy Plant",
+      "scientific_name": "Oryza sativa (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Vibrant green leaves without discoloration, lesions, or wilting",
+        "Normal vegetative and reproductive growth appropriate for plant age"
+      ],
+      "possible_causes": [],
+      "prevention": [
+        "Maintain standard balanced nutrient management (NPK)",
+        "Practice recommended water management and regular field monitoring"
+      ],
+      "management": [
+        "Continue routine cultural care and periodic pest/disease scouting"
+      ],
+      "organic_management": [
+        "Maintain soil organic health and beneficial microbial biodiversity"
+      ],
+      "chemical_management": [
+        "None required for healthy crops"
+      ],
+      "severity_notes": "Not applicable - plant displays healthy growth traits.",
+      "source": "Standard Agronomic Field Guidelines (IRRI / ICAR Rice Knowledge Bank)",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "bacterial_leaf_blight",
+      "display_name": "Bacterial Leaf Blight",
+      "scientific_name": "Xanthomonas oryzae pv. oryzae",
+      "disease_type": "Bacterial",
+      "affected_parts": [
+        "Leaf blades",
+        "Leaf sheaths"
+      ],
+      "symptoms": [
+        "Water-soaked lesions on leaf margins turning yellowish to grayish-white",
+        "Wavy margins along lesion borders with milky or amber bacterial ooze visible in high morning humidity",
+        "Severe early-stage infection causes seedling wilt and rolling known as 'kresek'"
+      ],
+      "possible_causes": [
+        "Pathogen transmission via irrigation water, rain splash, typhoons, and handling",
+        "Excessive nitrogen application and warm, humid weather (25-34\u00b0C with relative humidity >70%)"
+      ],
+      "prevention": [
+        "Plant certified disease-resistant or tolerant cultivars (e.g. Improved Samba Mahsuri, IR64)",
+        "Avoid excessive nitrogen fertilization; apply split doses with adequate potassium (potash)",
+        "Ensure proper field drainage and avoid flood water flow from infected fields into healthy fields",
+        "Avoid clipping seedling leaf tips during transplanting"
+      ],
+      "management": [
+        "Drain field water intermittently to reduce canopy humidity",
+        "Delay or reduce subsequent top-dressed nitrogen applications until disease arrest",
+        "Eradicate weed hosts (such as Leersia oryzoides) along field bunds"
+      ],
+      "organic_management": [
+        "Seed treatment with Pseudomonas fluorescens (10 g/kg seed) or Bacillus subtilis",
+        "Foliar spray of 20% fresh cow dung extract or neem cake extract (5%)",
+        "Spray Panchagavya (3%) at 10-14 day intervals during vegetative growth"
+      ],
+      "chemical_management": [
+        "Copper hydroxide (2 g/L) or copper oxychloride (2.5 g/L) combined with Streptomycin sulfate + Tetracycline hydrochloride (300 ppm) where authorized by local extension guidelines"
+      ],
+      "severity_notes": "Can cause 20% to 50% yield loss if kresek or high flag leaf blighting occurs during early tillering and panicle emergence.",
+      "source": "IRRI Rice Knowledge Bank & ICAR-CRRI Rice Advisory Guidelines",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "bacterial_leaf_streak",
+      "display_name": "Bacterial Leaf Streak",
+      "scientific_name": "Xanthomonas oryzae pv. oryzicola",
+      "disease_type": "Bacterial",
+      "affected_parts": [
+        "Leaf blades"
+      ],
+      "symptoms": [
+        "Narrow, water-soaked, translucent interveinal streaks running parallel to leaf veins",
+        "Streaks turn yellowish-brown to dark brown and are dotted with tiny amber-colored resinous droplets",
+        "Extensive lesions coalesce causing the entire leaf blade to turn brown, die, and shred in high winds"
+      ],
+      "possible_causes": [
+        "Bacterial entry through natural leaf stomata or mechanical wounds caused by wind and farm tools",
+        "Warm temperatures (28-32\u00b0C) combined with high relative humidity and stormy rainfall"
+      ],
+      "prevention": [
+        "Use certified pathogen-free seeds from healthy seed plots",
+        "Adopt balanced nitrogen-phosphorus-potassium nutrition (avoid high nitrogen doses)",
+        "Maintain clean bunds and eliminate volunteer grass hosts"
+      ],
+      "management": [
+        "Avoid field operations while foliage is wet to prevent mechanical transmission",
+        "Practice alternate wetting and drying to reduce prolonged microclimatic moisture"
+      ],
+      "organic_management": [
+        "Seed treatment with bio-agents like Pseudomonas fluorescens or Trichoderma asperellum",
+        "Foliar spray with neem oil (3%) or botanicals (Vitex negundo leaf extract)"
+      ],
+      "chemical_management": [
+        "Foliar spray of Copper oxychloride (2.5 g/L) or Copper hydroxide (2.0 g/L) at early streak manifestation as per local extension protocols"
+      ],
+      "severity_notes": "Usually less destructive than bacterial leaf blight, but can cause 10-30% yield reduction under severe windstorm and high-moisture conditions.",
+      "source": "IRRI Rice Knowledge Bank & TNAU Agritech Portal",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "bacterial_panicle_blight",
+      "display_name": "Bacterial Panicle Blight",
+      "scientific_name": "Burkholderia glumae",
+      "disease_type": "Bacterial",
+      "affected_parts": [
+        "Panicles",
+        "Florets / Spikelets",
+        "Seedlings"
+      ],
+      "symptoms": [
+        "Spikelets on emerging panicles turn pale green-yellow then reddish-brown",
+        "Infected grains remain blank and sterile, causing panicles to remain erect instead of drooping with grain weight",
+        "Panicle branches and rachis may turn dark brown, with infected seedlings exhibiting basal rot"
+      ],
+      "possible_causes": [
+        "Seed-borne inoculum flourishing under abnormally high nighttime temperatures (>22-25\u00b0C) during heading",
+        "Frequent rains and high relative humidity during flowering and grain fill"
+      ],
+      "prevention": [
+        "Plant certified pathogen-free, inspected seed stocks",
+        "Select planting dates to avoid heading during peak hot summer periods",
+        "Avoid excess nitrogen fertilizers which delay maturity and increase floret susceptibility"
+      ],
+      "management": [
+        "Avoid sprinkler/overhead irrigation during flowering stage",
+        "Ensure field sanitation and deep plowing of crop residues post-harvest"
+      ],
+      "organic_management": [
+        "Seed soaking in bio-priming solutions with antagonistic Bacillus or Pseudomonas strains",
+        "Foliar bio-agent application before boot leaf emergence"
+      ],
+      "chemical_management": [
+        "Seed disinfection with designated bactericides (where registered); foliar options remain limited, focusing management on preventative cultural control and tolerant varieties"
+      ],
+      "severity_notes": "Highly destructive disease capable of causing up to 40-75% yield loss in susceptible varieties during unusually hot, humid flowering seasons.",
+      "source": "FAO Plant Protection & LSU AgCenter Rice Pathology Guide",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "blast",
+      "display_name": "Rice Blast",
+      "scientific_name": "Magnaporthe oryzae (Pyricularia oryzae)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaf blades",
+        "Collars",
+        "Neck nodes",
+        "Panicle branches"
+      ],
+      "symptoms": [
+        "Diamond-shaped or elliptical spindle lesions with whitish or grayish centers and brown/red borders on leaves",
+        "Dark necrotic ring lesions at the neck node directly below the panicle ('neck blast'), causing lodging and empty panicles ('whiteheads')",
+        "Rapid coalescing of leaf spots causing leaf death and burnt crop appearance"
+      ],
+      "possible_causes": [
+        "Airborne fungal conidia carried by wind and dew",
+        "High relative humidity (>90%), cool night temperatures (17-23\u00b0C), extended leaf wetness, and excessive nitrogen"
+      ],
+      "prevention": [
+        "Cultivate blast-resistant rice cultivars adapted to the region",
+        "Avoid dense seedling stands; optimize plant spacing to ensure air circulation",
+        "Apply nitrogen in 3 to 4 split applications rather than large single basal doses",
+        "Perform dry seed treatment with bio-agents or protectant fungicides"
+      ],
+      "management": [
+        "Maintain water layer in the field to inhibit spore germination (avoid prolonged dry soil stress)",
+        "Rogue infected volunteer plants and wild rice hosts from surrounding borders"
+      ],
+      "organic_management": [
+        "Seed treatment with Trichoderma viride / harzianum (10 g/kg seed) or Pseudomonas fluorescens",
+        "Foliar spray of 5% neem seed kernel extract (NSKE) or fermented butter-milk (chaas) solution",
+        "Foliar application of bio-formulations like Bacillus amyloliquefaciens"
+      ],
+      "chemical_management": [
+        "Tricyclazole 75% WP (0.6 g/L), Isoprothiolane 40% EC (1.5 mL/L), or Azoxystrobin 18.2% + Difenoconazole 11.4% SC (1 mL/L) applied at boot leaf and panicle emergence stages as per regional IPM recommendations"
+      ],
+      "severity_notes": "One of the most widespread and damaging rice diseases globally; neck blast phase can cause total yield failure.",
+      "source": "IRRI Rice Knowledge Bank & ICAR-NRRI Blast Advisory",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "leaf_blast",
+      "display_name": "Leaf Blast",
+      "scientific_name": "Magnaporthe oryzae (Pyricularia oryzae)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaf blades",
+        "Collars"
+      ],
+      "symptoms": [
+        "Diamond-shaped or spindle-shaped lesions with gray or whitish centers and brownish borders",
+        "Rapid expansion into large necrotic patches during periods of high dew and overcast weather"
+      ],
+      "possible_causes": [
+        "Fungal spores spreading through wind and morning dew",
+        "High relative humidity (>90%), cool nights, and high nitrogen rates"
+      ],
+      "prevention": [
+        "Plant blast-resistant varieties suited for the local agro-climatic zone",
+        "Avoid late planting and excessively dense seedling populations"
+      ],
+      "management": [
+        "Maintain continuous shallow flooding to reduce spore penetration",
+        "Avoid late-season top dressing with excessive nitrogen"
+      ],
+      "organic_management": [
+        "Seed treatment with Trichoderma viride (10 g/kg)",
+        "Foliar spray with Pseudomonas fluorescens (0.2%)"
+      ],
+      "chemical_management": [
+        "Tricyclazole 75% WP (0.6 g/L) or Kasugamycin 3% SL (2 mL/L) at first symptom appearance"
+      ],
+      "severity_notes": "Highly destructive under conducive weather; can cause complete leaf necrosis and significant vegetative yield reduction.",
+      "source": "IRRI Rice Knowledge Bank & ICAR Guidelines",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "neck_blast",
+      "display_name": "Neck Blast",
+      "scientific_name": "Magnaporthe oryzae (Pyricularia oryzae)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Panicle neck node",
+        "Panicle branches"
+      ],
+      "symptoms": [
+        "Dark grayish-brown lesions at the neck node directly below the panicle",
+        "Panicle branch breakage and incomplete grain filling resulting in white, empty heads ('whiteheads')"
+      ],
+      "possible_causes": [
+        "Severe leaf blast transition or late-season infection during panicle emergence",
+        "Continuous rainfall or morning fogs during the flowering to milky grain stage"
+      ],
+      "prevention": [
+        "Monitor leaf blast incidence closely prior to heading stage",
+        "Avoid water stress and high single-dose nitrogen at reproductive stages"
+      ],
+      "management": [
+        "Ensure timely preventative intervention prior to 50% heading in endemic areas"
+      ],
+      "organic_management": [
+        "Preventative bio-fungicide foliar spray of Pseudomonas fluorescens at boot leaf stage"
+      ],
+      "chemical_management": [
+        "Tricyclazole 75% WP (0.6 g/L) or Isoprothiolane 40% EC (1.5 mL/L) applied at boot leaf and repeat at 5% panicle emergence"
+      ],
+      "severity_notes": "Directly attacks the vascular collar supporting the panicle; can cause 50% to 100% loss of affected tillers.",
+      "source": "IRRI Rice Knowledge Bank & ICAR Guidelines",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "brown_spot",
+      "display_name": "Brown Spot",
+      "scientific_name": "Bipolaris oryzae (Cochliobolus miyabeanus)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves",
+        "Glumes",
+        "Panicles",
+        "Seedlings"
+      ],
+      "symptoms": [
+        "Small, circular to oval dark brown spots on foliage with yellow halos",
+        "Older lesions show gray or whitish centers with prominent dark brown margins",
+        "Lesions coalesce causing leaf drying, dark spotting on glumes, and discolored 'pecky' grain"
+      ],
+      "possible_causes": [
+        "Airborne fungal conidia flourishing in nutrient-depleted or moisture-stressed soils",
+        "Soil deficiencies (especially potassium, silicon, manganese, and zinc)",
+        "Infected seed stocks and drought stress"
+      ],
+      "prevention": [
+        "Correct soil nutrient deficiencies based on regular soil health tests; ensure adequate potash (K) and silicon",
+        "Use certified, pathogen-free seeds and avoid prolonged soil water stress",
+        "Hot water seed treatment at 53-54\u00b0C for 10-12 minutes prior to sowing"
+      ],
+      "management": [
+        "Maintain appropriate water management to prevent drought stress in the tillering phase",
+        "Apply split applications of potash and micronutrient sprays (zinc sulfate)"
+      ],
+      "organic_management": [
+        "Seed treatment with Trichoderma harzianum (10 g/kg seed) or Pseudomonas fluorescens",
+        "Soil enrichment with farmyard manure (FYM) and vermicompost to improve nutrient holding capacity",
+        "Foliar spray with neem oil (3%) or fermented organic concoctions"
+      ],
+      "chemical_management": [
+        "Mancozeb 75% WP (2 g/L), Propiconazole 25% EC (1 mL/L), or Carbendazim 12% + Mancozeb 63% WP (2 g/L) applied upon early symptom appearance as per local recommendations"
+      ],
+      "severity_notes": "Historically caused the Great Bengal Famine of 1943; severely degrades grain quality, germination percentage, and yield on poor soils.",
+      "source": "IRRI Rice Knowledge Bank & ICAR-NRRI Guidelines",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "dead_heart",
+      "display_name": "Dead Heart (Stem Borer Damage)",
+      "scientific_name": "Scirpophaga incertulas / Chilo suppressalis",
+      "disease_type": "Insect Pest Damage",
+      "affected_parts": [
+        "Central shoot",
+        "Vegetative tiller",
+        "Culm base"
+      ],
+      "symptoms": [
+        "Central vegetative shoot dries up, withers, and turns yellowish-brown ('dead heart')",
+        "Affected tiller pulls out easily by hand, revealing chewed base, entry holes, and larval frass",
+        "At reproductive stage, identical stem boring leads to erect empty white panicles ('whitehead')"
+      ],
+      "possible_causes": [
+        "Rice yellow stem borer or striped stem borer moths laying egg masses near leaf tips",
+        "Larvae boring inside the stem, severing the vascular bundle and growing tip",
+        "Excessive nitrogen fertilizer creating succulent, lush foliage attractive to moths"
+      ],
+      "prevention": [
+        "Clip seedling leaf tips before transplanting to remove stem borer egg masses",
+        "Synchronize planting in the farming block to avoid continuous pest cycles",
+        "Avoid excessive nitrogen application; follow balanced split fertilization",
+        "Plow fields and submerge stubble immediately after harvest to kill diapausing larvae"
+      ],
+      "management": [
+        "Install pheromone traps (5-8 traps/ha for monitoring; 20-25 traps/ha for mass trapping)",
+        "Conserve natural predators: spiders, dragonflies, and mirid bugs",
+        "Rogue and destroy dead heart tillers containing feeding larvae"
+      ],
+      "organic_management": [
+        "Release Trichogramma japonicum egg parasitoids at 100,000 adults/ha per week starting 30 days after transplanting (total 3-4 releases)",
+        "Foliar spray with 5% Neem Seed Kernel Extract (NSKE) or Azadirachtin 1% (2 mL/L)",
+        "Install light traps to attract and trap night-flying moths"
+      ],
+      "chemical_management": [
+        "When pest crosses Economic Threshold Level (ETL: 10% dead hearts or 1 egg mass/m\u00b2): Chlorantraniliprole 0.4% G (10 kg/ha), Cartap hydrochloride 4% G (18 kg/ha), or Flubendiamide 39.35% SC (0.25 mL/L) applied per state agricultural university guidance"
+      ],
+      "severity_notes": "Stem borers are key pests of rice; uncontrolled infestations during vegetative stage cause extensive tiller death and yield reductions of 20-70%.",
+      "source": "IRRI Pest Knowledge Bank & ICAR-National Research Centre for Integrated Pest Management (NCIPM)",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "downy_mildew",
+      "display_name": "Downy Mildew",
+      "scientific_name": "Sclerophthora macrospora",
+      "disease_type": "Fungal-like (Oomycete)",
+      "affected_parts": [
+        "Leaves",
+        "Tillers",
+        "Panicles"
+      ],
+      "symptoms": [
+        "Stunted seedlings and plants exhibiting excessive, abnormal tillering ('crazy tiller')",
+        "Yellowish-white or pale chlorotic streaks along leaf veins; leaves become thick, twisted, or crinkled",
+        "Floral organs proliferate into vegetative leaf-like structures (phyllody) causing malformed, sterile panicles"
+      ],
+      "possible_causes": [
+        "Soil-borne and water-borne oospores surviving in poorly drained or flooded nursery beds",
+        "Prolonged submersion of seedlings during early growth stages in low-lying fields",
+        "Infected wild aquatic weed hosts along canals and drainage basins"
+      ],
+      "prevention": [
+        "Locate nurseries on well-drained, elevated upland seedbeds to avoid stagnant standing water",
+        "Avoid using irrigation runoff or floodwater originating from previously infected fields",
+        "Rogue and safely destroy severely stunted and malformed tillers"
+      ],
+      "management": [
+        "Improve drainage channels to prevent prolonged submergence after heavy rains",
+        "Eliminate wild grassy weed hosts (e.g. Echinochloa, Digitaria) along bunds and ditches"
+      ],
+      "organic_management": [
+        "Seed treatment with biocontrol agents (Trichoderma spp.)",
+        "Soil incorporation of organic amendments (neem cake) to enhance beneficial microbial soil antagonisms"
+      ],
+      "chemical_management": [
+        "Seed dressing with Metalaxyl 35% WS (3 g/kg seed) in known endemic nursery locations; foliar spray of Metalaxyl 8% + Mancozeb 64% WP (2 g/L) if early symptoms appear in seedling beds"
+      ],
+      "severity_notes": "Can result in total sterility of infected hills; sporadic but highly damaging in flood-prone, poorly drained river basin paddies.",
+      "source": "IRRI Rice Diseases Catalog & Plant Pathology Compendium",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "hispa",
+      "display_name": "Rice Hispa Damage",
+      "scientific_name": "Dicladispa armigera",
+      "disease_type": "Insect Pest Damage",
+      "affected_parts": [
+        "Leaf blades"
+      ],
+      "symptoms": [
+        "Adult spiny black beetles scrape leaf chlorophyll, leaving characteristic narrow white parallel streaks",
+        "Grubs (larvae) mine between upper and lower leaf epidermises, producing irregular, whitish-translucent blister patches",
+        "Severely attacked leaves wither, dry up, and give the entire field an irregular scorched or whitish-bleached appearance"
+      ],
+      "possible_causes": [
+        "Warm, humid weather following monsoonal showers favoring beetle multiplication",
+        "Dense planting and heavy vegetative growth driven by excessive nitrogen fertilizer",
+        "Overwintered/summered adult beetles migrating from weed grasses onto young seedlings"
+      ],
+      "prevention": [
+        "Clip leaf tips of seedlings prior to transplanting to eliminate hispa eggs and leaf-mining larvae",
+        "Maintain clean bunds by cutting wild grass hosts before planting",
+        "Avoid excessive nitrogen fertilization and maintain recommended hill spacing for aeration"
+      ],
+      "management": [
+        "Sweep nursery beds and young crops with fine-mesh hand nets to collect and destroy adult beetles",
+        "In deep water paddies, drag a kerosene-soaked rope across the canopy followed by draining to dislodge and destroy beetles",
+        "Conserve natural predators including Eulophid parasitoid wasps, spiders, and predatory mirid bugs"
+      ],
+      "organic_management": [
+        "Foliar spray with 5% Neem Seed Kernel Extract (NSKE) or Azadirachtin 0.03% EC (3 mL/L)",
+        "Spraying bio-pesticides such as Beauveria bassiana (1 x 10^8 spores/mL at 5 g/L)"
+      ],
+      "chemical_management": [
+        "When hispa crosses Economic Threshold Level (ETL: 1-2 adults or 2 damaged leaves per hill): Chlorpyrifos 20% EC (2.5 mL/L), Quinalphos 25% EC (2 mL/L), or Triazophos 40% EC (1.5 mL/L) applied as per local plant protection schedules"
+      ],
+      "severity_notes": "Periodic outbreaks can cause up to 20-50% yield reduction due to extensive loss of photosynthetic leaf area, particularly during tillering.",
+      "source": "IRRI Rice Knowledge Bank & ICAR-CRRI Integrated Pest Management Bulletins",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "paddy",
+      "disease_id": "tungro",
+      "display_name": "Rice Tungro Disease",
+      "scientific_name": "Rice Tungro Bacilliform Virus (RTBV) & Rice Tungro Spherical Virus (RTSV)",
+      "disease_type": "Viral (Vector: Nephotettix virescens)",
+      "affected_parts": [
+        "Whole plant",
+        "Leaves",
+        "Tillers"
+      ],
+      "symptoms": [
+        "Pronounced plant stunting and significantly reduced tiller count",
+        "Leaves turn yellow to bright orange-yellow starting from the tip and moving downward along margins",
+        "Young emerging leaves display mottling, light green speckling, and interveinal chlorosis",
+        "Delayed flowering with partially exerted, sterile, or small panicles"
+      ],
+      "possible_causes": [
+        "Dual viral infection by RTBV and RTSV transmitted semi-persistently by the Green Leafhopper (Nephotettix virescens)",
+        "Continuous overlapping rice cropping allowing leafhopper vector populations to sustain viral reservoirs",
+        "Infected ratoon crops and volunteer rice plants serving as primary infection bridges"
+      ],
+      "prevention": [
+        "Plant resistant cultivars (e.g. IR36, IR64, Vikramarya) possessing tolerance to the viral complex and green leafhopper",
+        "Practice synchronized planting across contiguous village farming blocks to break the pest cycle",
+        "Plow under rice stubbles and destroy infected volunteer/ratoon plants immediately after harvest",
+        "Adopt a crop-free fallow period or rotate with non-host legume/oilseed crops"
+      ],
+      "management": [
+        "Monitor green leafhopper (GLH) population using yellow sticky traps and light traps",
+        "Rogue and safely destroy severely stunted orange-yellow hills during early tillering",
+        "Conserve predatory spiders (Lycosa pseudoannulata) and mirid bugs (Cyrtorhinus lividipennis) that feed on GLH"
+      ],
+      "organic_management": [
+        "Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or Neem oil (3%) to repel leafhopper vectors",
+        "Apply bio-control agents like Metarhizium anisopliae to suppress leafhopper nymphs"
+      ],
+      "chemical_management": [
+        "Control insect vector when GLH crosses ETL (1 insect/hill in endemic zones or 2 insects/hill in non-endemic zones): Imidacloprid 17.8% SL (0.3 mL/L), Thiamethoxam 25% WG (0.2 g/L), or Buprofezin 25% SC (1.5 mL/L) targeted to leafhopper feeding zones per extension advice"
+      ],
+      "severity_notes": "One of the most destructive rice virus diseases in South and Southeast Asia; early vegetative infection can cause 70% to 100% crop loss.",
+      "source": "IRRI Rice Knowledge Bank & ICAR-IIRR Tungro Advisory",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "maize",
+      "disease_id": "common_rust",
+      "display_name": "Common Rust of Maize",
+      "scientific_name": "Puccinia sorghi",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaf blades (upper and lower surfaces)",
+        "Leaf sheaths",
+        "Ear husks"
+      ],
+      "symptoms": [
+        "Small, circular to elongate golden-brown to cinnamon-brown powdery pustules (uredinia) on both leaf surfaces",
+        "Pustules turn brownish-black late in the season as teleutospores form",
+        "Severe foliar infections cause chlorosis, premature leaf senescence, and reduced grain fill"
+      ],
+      "visual_identification": "Powdery rust-colored pustules erupt through the leaf epidermis on both upper and lower leaf surfaces, releasing cinnamon-brown spores when wiped. Differs from Southern Rust (Puccinia polysora), which forms predominantly on the upper leaf surface with smaller, lighter orange pustules.",
+      "possible_causes": [
+        "Airborne fungal urediniospores transported long distances by wind currents",
+        "Cool to moderate temperatures (16-25\u00b0C), high relative humidity (>95%), and extended dew periods (6+ hours of leaf wetness)"
+      ],
+      "favorable_conditions": "Moderate temperatures (16-25\u00b0C), persistent cloud cover, high relative humidity, and prolonged morning dew.",
+      "prevention": [
+        "Plant rust-resistant or tolerant corn hybrids adapted to the agro-ecological region",
+        "Plant early in the season to evade peak spore migration periods",
+        "Maintain balanced nitrogen fertilization; avoid excessive nitrogen that promotes overly lush, susceptible foliage"
+      ],
+      "cultural_management": [
+        "Maintain optimal plant spacing to facilitate airflow within the canopy",
+        "Routinely scout lower and middle canopy leaves from vegetative stage V8 through silking"
+      ],
+      "management": [
+        "Prioritize intervention if pustules appear prior to tasseling/silking on susceptible hybrids under cool, moist weather"
+      ],
+      "biological_management": [
+        "General preventive guidance (disease-specific biological control is not verified for field eradication of Puccinia sorghi): Rusts are airborne obligate biotrophic fungi. Seed biopriming and soil-applied bioagents do NOT protect against foliar rust.",
+        "Preventive foliar spray of 5% Neem Seed Kernel Extract (NSKE; 50 g/L) or certified Bacillus subtilis formulations at earliest pustule sighting provides only mild protective suppression under low disease pressure. (Reference: ICAR-IIMR Technical Bulletin on Maize Diseases & CIMMYT Maize Pathology Manual)."
+      ],
+      "organic_management": [
+        "General preventive guidance: Preventive spray of 5% neem seed kernel extract (NSKE) at earliest pustule detection offers mild protective suppression. Biological seed treatments do not protect against foliar rust."
+      ],
+      "chemical_management": [
+        "Foliar fungicide application is warranted only when rust pustules appear prior to silking on susceptible hybrids under favorable cool, humid weather. The following formulations have official CIB&RC / PPQS label registrations for maize rust: (1) Azoxystrobin 18.2% + Cyproconazole 7.3% SC: 500 mL formulation/ha in 500 L water (1.0 mL/L); Pre-Harvest Interval (PHI): 52 days. (2) Kresoxim-methyl 44.3% SC: 500 mL formulation/ha in 500 L water (1.0 mL/L); Pre-Harvest Interval (PHI): 25 days. Consult your local agricultural extension officer and use only products registered for this crop and disease in your region. Follow the approved product label."
+      ],
+      "diagnostic_limitations": "Pustules can be visually confused with Southern Corn Rust (Puccinia polysora) or early Physoderma brown spot. Accurate diagnosis requires inspecting pustule distribution on both leaf surfaces or microscopic spore examination.",
+      "safety_warnings": "Observe mandatory Pre-Harvest Intervals (52 days for Azoxystrobin+Cyproconazole SC; 25 days for Kresoxim-methyl SC). Do not spray after grain reaches the dent stage. Wear protective gear.",
+      "severity_notes": "Yield losses range from 10% to 25% if significant leaf blighting occurs prior to or during silking; post-milk infections rarely justify treatment.",
+      "source": "PPQS / CIB&RC Major Uses of Pesticides (Fungicides, ppqs.gov.in) & ICAR-Indian Institute of Maize Research (IIMR) Technical Bulletins",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "maize",
+      "disease_id": "gray_leaf_spot",
+      "display_name": "Gray Leaf Spot of Maize",
+      "scientific_name": "Cercospora zeae-maydis",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Lower leaf blades initially, advancing upward to ear leaves and upper canopy",
+        "Leaf sheaths"
+      ],
+      "symptoms": [
+        "Initial pinpoint tan lesions with faint chlorotic haloes on lower leaves",
+        "Lesions expand longitudinally between parallel leaf veins into characteristic rectangular, vein-delimited tan to gray necrotic lesions (1-6 cm long)",
+        "Lesions turn grayish under high humidity due to conidial sporulation",
+        "Extensive lesion coalescence blights entire leaves, causing premature senescence, stalk lodging, and reduced kernel fill"
+      ],
+      "visual_identification": "Strictly vein-bounded, rectangular lesions with blunt, squared-off ends that run parallel to leaf veins. Distinct from Northern Corn Leaf Blight, which produces large elliptical cigar-shaped lesions crossing veins.",
+      "possible_causes": [
+        "Fungal mycelium and conidia surviving in infected corn stover on the soil surface",
+        "Warm, humid weather (25-32\u00b0C), high relative humidity (>90%), and extended periods of dew or rainfall"
+      ],
+      "favorable_conditions": "Warm temperatures (25-32\u00b0C), high relative humidity (>90%), continuous corn cropping, and heavy morning dews.",
+      "prevention": [
+        "Practice crop rotation with non-cereal host crops (soybeans, pulses) for at least 1-2 seasons",
+        "Manage crop residue through clean tillage where conservation practices permit to accelerate stover breakdown",
+        "Select corn hybrids with validated genetic resistance or tolerance to Gray Leaf Spot",
+        "Avoid high planting densities that restrict canopy airflow and elevate microclimate humidity"
+      ],
+      "cultural_management": [
+        "Scout lower and middle canopy leaves beginning 2-3 weeks before tasseling",
+        "Maintain good field drainage and suppress grass weeds that contribute to canopy humidity"
+      ],
+      "management": [
+        "Focus management on protecting the ear leaf and leaves above the ear during the critical grain filling window"
+      ],
+      "biological_management": [
+        "General cultural residue management (disease-specific foliar biological control is not verified for Cercospora zeae-maydis in India): Post-harvest application of Trichoderma inoculants or bio-decomposers onto corn stover accelerates residue breakdown, reducing overwintering fungal survival on the soil surface. (Reference: Ward et al., 1999, Plant Disease, 83(10), pp. 884-895).",
+        "Foliar biological sprays provide limited and inconsistent suppression under high disease pressure and are not proven as standalone curative controls."
+      ],
+      "organic_management": [
+        "General cultural residue management: Application of Trichoderma inoculants to post-harvest stover helps accelerate crop residue breakdown and reduce fungal overwintering. Foliar bio-agents are not proven standalone controls."
+      ],
+      "chemical_management": [
+        "No chemical fungicide has a registered label claim for Gray Leaf Spot on maize under CIB&RC / PPQS in India. Consult your local agricultural extension officer and use only products registered for this crop and disease in your region. Follow the approved product label."
+      ],
+      "diagnostic_limitations": "Early pinpoint spots resemble eyespot (Kabatiella zeae) or young Northern Corn Leaf Blight; wait for vein-delimited rectangular expansion before confirming diagnosis.",
+      "safety_warnings": "Do not apply unregistered off-label fungicides. Follow regional agricultural extension guidelines and safety protocols.",
+      "severity_notes": "One of the most destructive foliar diseases in continuous corn systems; causes significant yield losses and stalk lodging when lesions blight leaves above the ear.",
+      "source": "ICAR-IIMR Disease Management Guide & CIMMYT Maize Pathology Manual",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "maize",
+      "disease_id": "northern_leaf_blight",
+      "display_name": "Northern Corn Leaf Blight",
+      "scientific_name": "Exserohilum turcicum (syn. Helminthosporium turcicum)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaf blades",
+        "Leaf sheaths",
+        "Outer ear husks in severe infections"
+      ],
+      "symptoms": [
+        "Large, elongated, elliptical or cigar-shaped grayish-green to tan necrotic lesions (3-15 cm long)",
+        "Lesions have smooth margins with tapered ends, crossing leaf veins without vein limitation",
+        "Dark olive-green to black fungal spore mats develop in lesion centers during damp weather",
+        "Extensive lesion coalescence causes complete leaf desiccation and burned canopy appearance"
+      ],
+      "visual_identification": "Large cigar-shaped or boat-shaped elliptical lesions with tapered ends that cross parallel veins freely. Unlike Gray Leaf Spot (which is vein-bound and rectangular) and Southern Corn Leaf Blight (which forms smaller, narrower oval lesions).",
+      "possible_causes": [
+        "Fungal conidia surviving in infected maize residue splashed by rain or dispersed by wind onto lower leaves",
+        "Moderate temperatures (18-27\u00b0C), heavy dews, frequent rain, and prolonged leaf wetness (6-12 hours)"
+      ],
+      "favorable_conditions": "Moderate temperatures (18-27\u00b0C), heavy morning dews, frequent showers, and 6-12 hours of continuous leaf wetness.",
+      "prevention": [
+        "Cultivate adapted hybrids possessing specific Ht resistance genes (Ht1, Ht2, HtN) or polygenic resistance",
+        "Implement 1 to 2-year crop rotation away from corn to diminish soil residue inoculum",
+        "Ensure balanced potassium and nitrogen nutrition; avoid potassium deficiency which aggravates blight severity"
+      ],
+      "cultural_management": [
+        "Routinely inspect lower canopy for cigar-shaped lesions from knee-high stage through grain fill",
+        "Deeply incorporate crop residue post-harvest where agronomically appropriate"
+      ],
+      "management": [
+        "Prioritize protection of the ear leaf and upper canopy leaves prior to silking if weather forecasts favor disease progression"
+      ],
+      "biological_management": [
+        "Seed biopriming: Seed treatment with Trichoderma viride or Pseudomonas fluorescens (10 g/kg seed) helps suppress early seed-borne inoculum and promotes seedling vigor. (Reference: ICAR-IIMR Technical Bulletin, 'Maize Diseases and Their Integrated Management', pp. 18-22).",
+        "Foliar protective suppression: Preventive spray of 5% Neem Seed Kernel Extract (NSKE; 50 g/L) at first lesion sighting provides moderate protective suppression under mild disease pressure. (Reference: Harlapur et al., 2007, Karnataka J. Agric. Sci., 20(4), pp. 741-744, URL: http://14.139.155.167/test5/index.php/kjas/article/view/1149)."
+      ],
+      "organic_management": [
+        "Seed biopriming with Trichoderma viride (10 g/kg seed) to reduce seed-borne infection. Preventive spray of 5% NSKE at initial lesion appearance provides moderate protective suppression."
+      ],
+      "chemical_management": [
+        "When 2 to 3 lesions appear on leaves below the ear before silking under humid weather forecasts, apply recommended fungicides. Formulations with specifically verified PPQS label registrations for Turcicum leaf blight on maize: (1) Azoxystrobin 18.2% + Cyproconazole 7.3% SC: 500 mL formulation/ha in 500 L water (1.0 mL/L); Pre-Harvest Interval (PHI): 52 days. (2) Kresoxim-methyl 44.3% SC: 500 mL formulation/ha in 500 L water (1.0 mL/L); Pre-Harvest Interval (PHI): 25 days. Note on generic registrations: Formulations such as Azoxystrobin 18.2% + Difenoconazole 11.4% SC (PHI: 26 days) and Carbendazim 12% + Mancozeb 63% WP (1,000 g/ha in 500 L water; PHI: 37 days) carry PPQS label claims for generic 'maize blight / leaf blight and downy mildew' and are not specifically verified as exclusive Northern Leaf Blight claims. Do not infer that generic 'leaf blight' on product labels specifically verifies efficacy against Northern Leaf Blight. Consult your local agricultural extension officer and use only products registered for this crop and disease in your region. Follow the approved product label."
+      ],
+      "diagnostic_limitations": "Provisional Classification & Diagnostic Limitations: The training dataset labeled this class simply as 'Blight'. While visual characteristics (elongated cigar-shaped lesions) and dataset provenance (PlantVillage benchmark) strongly indicate Northern Corn Leaf Blight (Exserohilum turcicum), other maize diseases\u2014including Southern Corn Leaf Blight (Bipolaris maydis), Stewart's bacterial wilt, and physiological leaf firing\u2014can cause overlapping necrotic symptoms. Image-based deep learning predictions provide screening guidance only and must not be treated as definitive laboratory or microscopic confirmation. If severe blight symptoms develop, consult an agricultural extension specialist or plant pathology clinic.",
+      "safety_warnings": "Observe mandatory Pre-Harvest Intervals (52 days for Azoxystrobin+Cyproconazole SC; 25 days for Kresoxim-methyl SC; 26 days for Azoxystrobin+Difenoconazole SC; 37 days for Carbendazim+Mancozeb WP). Wear protective equipment.",
+      "severity_notes": "Can cause 30-50% grain yield reduction if severe blighting occurs at or before silking; late-season infections after dough stage have minimal yield impact.",
+      "source": "PPQS / CIB&RC Major Uses of Pesticides (Fungicides, ppqs.gov.in) & ICAR-IIMR Maize Pathology Bulletin",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "maize",
+      "disease_id": "healthy",
+      "display_name": "Healthy Maize Plant",
+      "scientific_name": "Zea mays (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Uniform vibrant green leaves without chlorotic streaks, necrotic lesions, or pustules",
+        "Strong, erect stalk with normal internode spacing and sturdy brace root development",
+        "Normal vegetative and reproductive growth appropriate for hybrid phenological stage"
+      ],
+      "visual_identification": "Leaf blades show uniform green pigmentation, intact lamina margins, and absence of fungal pustules, necrotic spots, vascular wilting, or insect-chewed patterns.",
+      "possible_causes": [],
+      "favorable_conditions": "Balanced soil fertility, well-drained loamy soil, adequate sunlight, and uniform moisture availability without waterlogging.",
+      "prevention": [
+        "Perform soil test-based balanced NPK fertilization with essential micronutrient (Zinc, Boron) supplementation",
+        "Maintain optimal field drainage to prevent waterlogging, particularly during seedling and tasseling stages",
+        "Conduct regular weekly scouting for invasive insect pests (e.g. Fall Armyworm) and early foliar spots",
+        "Practice integrated weed management during the critical early crop competition window (first 30-45 days)"
+      ],
+      "cultural_management": [
+        "Continue regular agronomic care, timely irrigation, and split application of nitrogen at knee-high and tasseling stages"
+      ],
+      "management": [
+        "Maintain optimal plant health through balanced nutrition and routine crop scouting"
+      ],
+      "biological_management": [
+        "General agronomic fertility guidance (requires local soil-test calibration): Application of well-decomposed farmyard manure (FYM) or vermicompost (general recommendation: 5-10 t/ha based on local soil test values) during land preparation enriches soil microflora and improves nutrient uptake. This is routine fertility guidance, not disease treatment. (Reference: ICAR-IIMR & CIMMYT Maize Production Manual).",
+        "Maintain flowering field borders to conserve beneficial generalist predators (spiders, ladybird beetles, Trichogramma parasitoids) for natural suppression of insect vectors and pests."
+      ],
+      "organic_management": [
+        "General agronomic guidance requiring local soil recommendations: Incorporate well-decomposed farmyard manure (FYM) or vermicompost (5-10 t/ha based on soil test) to foster soil microflora. Conserve natural predators through flowering field borders."
+      ],
+      "chemical_management": [
+        "None required for healthy crops. Do not apply synthetic chemical fungicides or prophylactic pesticides to healthy plants."
+      ],
+      "diagnostic_limitations": "Visual assessment confirms absence of foliar disease symptoms at the time of inspection. Periodic scouting should continue throughout the growing season as weather conditions change.",
+      "safety_warnings": "Avoid unnecessary chemical applications on healthy crops to preserve beneficial insect populations and prevent chemical resistance.",
+      "severity_notes": "Not applicable - plant displays healthy vegetative and reproductive growth traits.",
+      "source": "ICAR-Indian Institute of Maize Research (IIMR) & CIMMYT Maize Production Manual",
+      "last_reviewed": "2026-11-17"
+    },
+    {
+      "crop": "groundnut",
+      "disease_id": "early_leaf_spot",
+      "display_name": "Early Leaf Spot of Groundnut (Tikka Disease)",
+      "scientific_name": "Cercospora arachidicola (syn. Mycosphaerella arachidis)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaflets",
+        "Petioles",
+        "Stems"
+      ],
+      "symptoms": [
+        "Subcircular reddish-brown to dark-brown spots (1-10 mm diameter) predominantly on upper leaf surfaces",
+        "Distinct, prominent bright yellow chlorotic halo characteristically surrounding each lesion",
+        "Severe infection leads to leaflet chlorosis, premature defoliation, and reduced pod yield"
+      ],
+      "visual_identification": "Subcircular reddish-brown spots with prominent bright yellow halos appearing primarily on the upper leaflet surface about 3 to 4 weeks after emergence. Distinct from Late Leaf Spot, which produces darker, nearly black spots on the lower leaf surface with indistinct or absent halos.",
+      "possible_causes": [
+        "Soil-borne conidia and infected groundnut crop residue from previous seasons",
+        "Prolonged high relative humidity (>80%), moderate temperatures (25-30\u00b0C), and extended leaf wetness from rain or dew"
+      ],
+      "favorable_conditions": "Warm temperatures (25-30\u00b0C), persistent relative humidity (>80%), and frequent rainfall or heavy morning dew.",
+      "prevention": [
+        "Practice 2-year crop rotation with non-legume crops (sorghum, maize, or pearl millet)",
+        "Perform deep summer ploughing to bury crop residue and fungal conidia",
+        "Sow disease-tolerant or resistant cultivars (e.g., Kadiri-6, Girnar, ICGV series) adapted to the agro-climatic zone",
+        "Maintain optimal spacing (30 x 10 cm) to allow canopy aeration and reduce microclimate humidity"
+      ],
+      "cultural_management": [
+        "Eradicate volunteer groundnut plants and remove infected debris post-harvest",
+        "Avoid overhead sprinkler irrigation late in the evening to prevent prolonged leaf wetness"
+      ],
+      "management": [
+        "Initiate scouting 3-4 weeks after sowing; apply intervention when spot incidence reaches economic threshold level (5-10% infected leaflets)"
+      ],
+      "biological_management": [
+        "Seed treatment with Trichoderma viride or Trichoderma harzianum (4-5 g/kg seed) or Pseudomonas fluorescens (10 g/kg seed) to suppress early soil-borne inoculum.",
+        "Preventive foliar application of 5% Neem Seed Kernel Extract (NSKE; 50 g/L) or neem oil (3%) at initial lesion onset offers moderate protective suppression. (Reference: ICAR-DGR Technical Bulletin on Groundnut Diseases)."
+      ],
+      "organic_management": [
+        "Seed biopriming with Trichoderma viride (4-5 g/kg seed). Foliar application of 5% Neem Seed Kernel Extract (NSKE) at earliest lesion appearance provides protective suppression under mild disease pressure."
+      ],
+      "chemical_management": [
+        "When leaf spots reach economic threshold (5-10% leaflet severity), apply CIB&RC / PPQS registered fungicides: (1) Carbendazim 12% + Mancozeb 63% WP: 1,000 g formulation/ha in 500 L water (2.0 g/L); Pre-Harvest Interval (PHI): 30 days. (2) Tebuconazole 25.9% m/m EC: 500-750 mL/ha in 500 L water (1.0-1.5 mL/L); Pre-Harvest Interval (PHI): 49 days. (3) Hexaconazole 5% SC: 1,000 mL/ha in 500 L water (2.0 mL/L); Pre-Harvest Interval (PHI): 30 days. Consult your local agricultural extension officer and follow the approved product label."
+      ],
+      "diagnostic_limitations": "Early leaf spot lesions can be confused with early stages of Late Leaf Spot or chemical phytotoxicity burn. Confirmatory identification requires inspecting the yellow halo on the upper surface and microscopic verification of Cercospora conidia.",
+      "safety_warnings": "Observe mandatory Pre-Harvest Intervals (30 days for Carbendazim+Mancozeb WP; 49 days for Tebuconazole EC). Wear protective equipment during preparation and spraying. Do not feed treated crop stover to cattle before the PHI has elapsed.",
+      "severity_notes": "One of the two major foliar diseases comprising the Groundnut Tikka complex; can cause 15% to 50% pod and haulm yield reduction if left unmanaged.",
+      "source": "ICAR-Directorate of Groundnut Research (ICAR-DGR), Junagadh & CIB&RC Major Uses of Pesticides (ppqs.gov.in)",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "groundnut",
+      "disease_id": "late_leaf_spot",
+      "display_name": "Late Leaf Spot of Groundnut (Tikka Disease)",
+      "scientific_name": "Phaeoisariopsis personata (syn. Cercosporidium personatum / Mycosphaerella berkeleyi)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaflets",
+        "Petioles",
+        "Stems",
+        "Pegs"
+      ],
+      "symptoms": [
+        "Nearly circular, dark brown to carbonaceous black spots (1-6 mm diameter) appearing primarily on lower leaf surfaces",
+        "Lesions typically lack a distinct yellow halo or possess only a very narrow, faint halo",
+        "Dense carbonaceous velvety concentric rings of fungal conidiophores visible on the underside of spots",
+        "Severe infection leads to rapid extensive defoliation, leaving bare stems with only top leaflets intact"
+      ],
+      "visual_identification": "Dark brown to jet-black spots that are distinctly darker and more pronounced on the abaxial (lower) leaf surface, with rough velvety cushions of conidiophores. Differs from Early Leaf Spot, which is lighter reddish-brown with a prominent bright yellow halo predominantly on the upper leaf surface.",
+      "possible_causes": [
+        "Crop residue, infected seed pods, and wind-borne conidia surviving in soil from previous groundnut cultivation",
+        "High relative humidity (>85%), temperatures between 20-26\u00b0C, and prolonged leaf wetness (8+ hours)"
+      ],
+      "favorable_conditions": "Cooler to moderate temperatures (20-26\u00b0C), persistent cloud cover, relative humidity exceeding 85%, and frequent morning dews.",
+      "prevention": [
+        "Rotate crops with non-host cereals (pearl millet, sorghum, maize) for 2 seasons",
+        "Adopt wider row spacing (30-40 cm) to facilitate air circulation and rapid leaf drying",
+        "Cultivate tolerant varieties (e.g. Girnar-2, Girnar-3, GPBD-4, ICGV series)",
+        "Collect and burn or deeply bury infected haulms post-harvest"
+      ],
+      "cultural_management": [
+        "Intercrop groundnut with pearl millet or pigeon pea (4:1 or 6:1 ratio) to slow aerial spore dispersal",
+        "Avoid water stress during vegetative growth followed by excessive canopy moisture"
+      ],
+      "management": [
+        "Regularly inspect lower canopy leaves starting 50-60 days after sowing (flowering/pegging stages); treat when 2-3 spots per leaf are observed"
+      ],
+      "biological_management": [
+        "Seed biopriming with Trichoderma viride or T. harzianum (4-5 g/kg seed) plus Pseudomonas fluorescens (10 g/kg seed).",
+        "Preventive foliar spray of 5% Neem Seed Kernel Extract (NSKE) or Trichoderma viride formulation (5 g/L) provides partial disease suppression under low-to-moderate disease pressure. (Reference: ICAR-DGR Junagadh & ICRISAT Groundnut Pathology)."
+      ],
+      "organic_management": [
+        "Seed biopriming with Trichoderma viride (4 g/kg seed). Foliar application of 5% NSKE at initial spot sighting on lower leaves to slow lesion multiplication."
+      ],
+      "chemical_management": [
+        "When disease appears on lower leaves at flowering/pegging stages, spray registered fungicides: (1) Tebuconazole 25.9% m/m EC: 500-750 mL/ha in 500 L water (1.0-1.5 mL/L); Pre-Harvest Interval (PHI): 49 days. (2) Carbendazim 12% + Mancozeb 63% WP: 1,000 g formulation/ha in 500 L water (2.0 g/L); Pre-Harvest Interval (PHI): 30 days. (3) Difenoconazole 25% EC: 500 mL/ha in 500 L water (1.0 mL/L); Pre-Harvest Interval (PHI): 30 days. Consult local extension authorities and adhere strictly to label guidelines."
+      ],
+      "diagnostic_limitations": "Late leaf spot frequently co-occurs with groundnut rust in the field, forming a destructive disease complex. Lesions must be distinguished from early leaf spot by checking lower surface cushion texture and darker coloration.",
+      "safety_warnings": "Adhere strictly to Pre-Harvest Intervals (49 days for Tebuconazole EC; 30 days for Carbendazim+Mancozeb WP). Avoid spraying during windy conditions or before rain. Wear protective mask and gloves.",
+      "severity_notes": "Generally more destructive than Early Leaf Spot; severe defoliation during pod development can result in yield losses up to 50-70% and severely degrades haulm fodder quality.",
+      "source": "ICAR-Directorate of Groundnut Research (ICAR-DGR), Junagadh & CIB&RC Major Uses of Pesticides (ppqs.gov.in)",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "groundnut",
+      "disease_id": "rust",
+      "display_name": "Groundnut Foliar Rust",
+      "scientific_name": "Puccinia arachidis",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Lower leaf surfaces primarily",
+        "Upper leaf surfaces",
+        "Petioles",
+        "Stems"
+      ],
+      "symptoms": [
+        "Small, circular, raised blisters or pustules (uredinia) measuring 0.5-1.5 mm on the lower leaf surface",
+        "Pustules rupture the epidermis to expose bright orange to cinnamon-brown powdery mass of urediniospores",
+        "Corresponding upper leaf surface shows pale yellow chlorotic flecks directly above the pustules",
+        "Infected leaves curl upward, turn necrotic, dry out, and appear burned while remaining attached to the plant (no premature defoliation, unlike Tikka leaf spots)"
+      ],
+      "visual_identification": "Raised circular blisters on lower leaf surfaces discharging reddish-brown powdery spores when rubbed with a finger. Unlike Early and Late Leaf Spots which cause extensive leaf dropping, rust-infected leaves dry up, curl, and remain attached to the stem.",
+      "possible_causes": [
+        "Airborne fungal urediniospores carried over long distances by wind currents",
+        "Moderate temperatures (20-25\u00b0C), high relative humidity (>85%), and extended periods of free water on leaf surfaces"
+      ],
+      "favorable_conditions": "Temperatures between 20-25\u00b0C, relative humidity above 85%, frequent light showers or heavy night dews, and dense planting.",
+      "prevention": [
+        "Sow rust-resistant/tolerant cultivars (e.g., GPBD-4, ICGV-91114, Girnar-1, ALR-3)",
+        "Avoid staggered sowings in neighboring fields to prevent continuous disease cycle",
+        "Intercrop groundnut with non-host cereals (pearl millet, sorghum, maize)",
+        "Eradicate self-sown groundnut plants between crop seasons"
+      ],
+      "cultural_management": [
+        "Maintain adequate plant spacing to facilitate airflow within the canopy",
+        "Avoid excess nitrogen application that produces dense, succulent foliage"
+      ],
+      "management": [
+        "Scout crops weekly from 40 days after sowing; initiate preventive measures when the first pustules appear on lower leaves"
+      ],
+      "biological_management": [
+        "Foliar spray of fungal hyperparasites such as Acremonium persicinum or Verticillium lecanii (1 x 10^8 spores/mL) has demonstrated biocontrol potential in research trials against Puccinia arachidis.",
+        "Preventive spray of 5% Neem Seed Kernel Extract (NSKE; 50 g/L) or Neem oil (3%) inhibits urediniospore germination and provides mild protective suppression under low disease pressure. (Reference: ICAR-DGR Technical Bulletin on Groundnut Rust)."
+      ],
+      "organic_management": [
+        "Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or 3% neem oil upon observing initial pustules. Plant resistant cultivars such as GPBD-4."
+      ],
+      "chemical_management": [
+        "Apply registered fungicides when pustules appear on lower leaves: (1) Hexaconazole 5% SC: 1,000 mL/ha in 500 L water (2.0 mL/L); Pre-Harvest Interval (PHI): 30 days. (2) Tebuconazole 25.9% m/m EC: 500-750 mL/ha in 500 L water (1.0-1.5 mL/L); Pre-Harvest Interval (PHI): 49 days. (3) Mancozeb 75% WP: 1,000-1,250 g/ha in 500 L water (2.0-2.5 g/L); Pre-Harvest Interval (PHI): 30 days. Consult local extension authorities and adhere strictly to label guidelines."
+      ],
+      "diagnostic_limitations": "Early rust flecks can resemble early leaf spots or mite feeding stipples before pustules erupt. Rubbing the spot with a white tissue to check for orange-brown spore residue confirms active sporulation.",
+      "safety_warnings": "Observe mandatory Pre-Harvest Intervals (30 days for Hexaconazole SC and Mancozeb WP; 49 days for Tebuconazole EC). Wear protective equipment during application.",
+      "severity_notes": "Can cause up to 50% pod yield reduction and severely damages fodder quality when combined with Late Leaf Spot; early vegetative rust infection causes severe economic losses.",
+      "source": "ICAR-Directorate of Groundnut Research (ICAR-DGR), Junagadh & CIB&RC Major Uses of Pesticides (ppqs.gov.in)",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "groundnut",
+      "disease_id": "nutrition_deficiency",
+      "display_name": "Nutrient Deficiency in Groundnut (Abiotic Chlorosis)",
+      "scientific_name": "Abiotic Nutrient Deficiency (Arachis hypogaea)",
+      "disease_type": "Abiotic",
+      "affected_parts": [
+        "Young emerging leaves (Iron/Zinc)",
+        "Mature leaves (Nitrogen/Potassium)",
+        "General canopy"
+      ],
+      "symptoms": [
+        "Iron Chlorosis: Vivid interveinal yellowing of young apical leaflets while main veins remain sharply green; in severe cases, entire leaflets turn pale ivory-white",
+        "Zinc Deficiency: Stunted plant growth, small crinkled leaflets ('little leaf' appearance), and chlorotic mottling between veins",
+        "Nitrogen Deficiency: Uniform pale green to light yellow discoloration of older basal leaves progressing upward throughout the canopy with reduced nodulation",
+        "Complete absence of fungal pustules, necrotic spots with yellow halos, or pathogenic fruiting bodies"
+      ],
+      "visual_identification": "Patterned chlorosis (interveinal yellowing or generalized leaf yellowing) without discrete necrotic spots, fungal pustules, concentric rings, or spore mats. Tissues remain supple and intact without fungal sporulation.",
+      "possible_causes": [
+        "High soil pH / calcareous soils (>7.5 pH) immobilizing iron and zinc in insoluble carbonate forms",
+        "Imbalanced fertilizer application, low soil organic matter, or poor soil drainage causing temporary root hypoxia"
+      ],
+      "favorable_conditions": "Calcareous black clay soils, high bicarbonate levels in irrigation water, prolonged saturated soil conditions, and low organic carbon.",
+      "prevention": [
+        "Perform soil testing prior to sowing to determine exact micronutrient and macronutrient status",
+        "Apply well-decomposed farmyard manure (FYM; 10-12 t/ha) or vermicompost to improve soil organic carbon and nutrient chelation",
+        "Apply Gypsum (400-500 kg/ha) in two splits: 50% at sowing and 50% at flowering/pegging (40-45 DAS) for calcium and sulfur supply",
+        "Inoculate seed with Rhizobium and Phosphate Solubilizing Bacteria (PSB) biofertilizers"
+      ],
+      "cultural_management": [
+        "Avoid over-irrigation and waterlogging in heavy soils which precipitates iron chlorosis",
+        "Ensure proper field drainage and intercultural hoeing to aerate the root zone"
+      ],
+      "management": [
+        "Identify specific deficiency pattern (interveinal vs general) and apply targeted foliar micronutrient correction promptly"
+      ],
+      "biological_management": [
+        "Biofertilizer seed inoculation: Seed treatment with Bradyrhizobium groundnut culture (200-250 g/10 kg seed) and Phosphate Solubilizing Bacteria (PSB; 200 g/10 kg seed) enhances biological nitrogen fixation and phosphorus uptake.",
+        "Incorporate bio-enriched compost with mycorrhizal fungi (VAM) to improve root absorption of zinc, iron, and phosphorus."
+      ],
+      "organic_management": [
+        "Apply well-decomposed FYM (10-12 t/ha) enriched with Trichoderma and Pseudomonas. Use Rhizobium and PSB seed treatment. Incorporate green manure crops (sunnhemp or sesbania) before sowing."
+      ],
+      "chemical_management": [
+        "This is a non-infectious physiological condition; DO NOT apply synthetic fungicides. Apply targeted nutrient sprays: (1) Iron Chlorosis: Foliar spray of Ferrous Sulphate (FeSO4, 0.5% = 5 g/L) + Citric acid (0.1% = 1 g/L) at 30 and 45 days after sowing (2-3 sprays at 7-10 day intervals). (2) Zinc Deficiency: Foliar spray of Zinc Sulphate (ZnSO4, 0.5% = 5 g/L) or soil application of Zinc Sulphate (25 kg/ha at sowing). (3) General Chlorosis: Foliar spray of 19:19:19 water-soluble NPK (1.0% = 10 g/L)."
+      ],
+      "diagnostic_limitations": "Interveinal chlorosis caused by iron deficiency can be confused with Groundnut Bud Necrosis Virus (GBNV) chlorotic ring mottling or early spider mite infestation. Absence of concentric ring necrosis and lack of insect webbing confirms nutritional etiology.",
+      "safety_warnings": "Always neutralize ferrous sulphate spray solution with citric acid to prevent iron precipitation. Do not apply fertilizer sprays during hot midday hours to prevent foliar salt burn; spray early morning or late afternoon.",
+      "severity_notes": "Severe iron chlorosis in calcareous soils can reduce pod yield by 20% to 40% and severely impairs root nodulation; timely foliar correction restores vegetative vigor within 7-10 days.",
+      "source": "ICAR-Directorate of Groundnut Research (ICAR-DGR), Junagadh & TNAU Agronomy Groundnut Portal",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "groundnut",
+      "disease_id": "healthy",
+      "display_name": "Healthy Groundnut Foliage",
+      "scientific_name": "Arachis hypogaea (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Uniform vibrant green tetrafoliate leaves with intact leaflets and smooth margins",
+        "Sturdy erect or spreading stems with healthy flowering nodes and normal peg penetration",
+        "Complete absence of fungal spots, rust pustules, chlorotic streaks, or deficiency yellowing"
+      ],
+      "visual_identification": "Leaflets exhibit uniform deep green coloration, firm turgid texture, and clean upper and lower surfaces free from pustules, necrotic spots, chlorotic halos, or chewing damage.",
+      "possible_causes": [],
+      "favorable_conditions": "Well-drained sandy loam to loamy soil (pH 6.0-7.5), optimal daytime temperatures (25-30\u00b0C), adequate soil moisture during pegging, and full sunlight.",
+      "prevention": [
+        "Maintain balanced soil fertility (NPK: 20-40-40 kg/ha or soil test recommendation)",
+        "Apply gypsum (400-500 kg/ha) at flowering/pegging for pod filling and shell hardness",
+        "Perform regular weekly scouting for foliar spots, leaf miners, and sucking pests",
+        "Ensure optimal field drainage to prevent water stagnation"
+      ],
+      "cultural_management": [
+        "Continue routine agronomic care, timely weeding up to 35-40 DAS (avoid hoeing after pegging), and critical-stage irrigations (flowering, pegging, pod development)"
+      ],
+      "management": [
+        "Maintain optimum crop health through balanced nutrition, timely irrigations, and routine IPM monitoring"
+      ],
+      "biological_management": [
+        "Maintain soil biological health by applying well-composted farmyard manure (FYM; 7.5-10 t/ha) during final land preparation.",
+        "Conserve natural biological control agents (ladybird beetles, spiders, predatory mites) by avoiding prophylactic chemical pesticide sprays on healthy crops."
+      ],
+      "organic_management": [
+        "Apply compost or vermicompost (2.5 t/ha). Inoculate seeds with Rhizobium and PSB biofertilizers. Avoid unwarranted chemical applications to preserve soil microbiome and beneficial insects."
+      ],
+      "chemical_management": [
+        "None required for healthy crops. Do NOT apply prophylactic synthetic chemical fungicides or pesticides to healthy foliage."
+      ],
+      "diagnostic_limitations": "Visual health indicates absence of foliar disease symptoms at the time of observation. Continue weekly monitoring, especially during flowering and pod development as weather changes.",
+      "safety_warnings": "Avoid unwarranted chemical applications on healthy plants to preserve beneficial soil and canopy biodiversity and prevent pesticide resistance.",
+      "severity_notes": "Not applicable - plant displays normal healthy vegetative and reproductive growth characteristics.",
+      "source": "ICAR-Directorate of Groundnut Research (ICAR-DGR), Junagadh & ICRISAT Groundnut Production Guidelines",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "chilli",
+      "disease_id": "bacterial_spot",
+      "display_name": "Bacterial Leaf Spot of Chilli",
+      "scientific_name": "Xanthomonas campestris pv. vesicatoria",
+      "disease_type": "Bacterial",
+      "affected_parts": [
+        "Leaves",
+        "Stems",
+        "Fruit"
+      ],
+      "symptoms": [
+        "Small, circular to irregular water-soaked spots on leaves that turn dark brown to black with yellow halo",
+        "Spots coalesce causing extensive leaf blighting, premature defoliation, and fruit lesions with blister-like scabs",
+        "Severe defoliation exposes fruit to sunscald and drastically reduces yield"
+      ],
+      "possible_causes": [
+        "Seed-borne bacterium or infected crop debris in soil",
+        "Warm temperatures (24-30\u00b0C) with persistent high humidity and driving rain / overhead splashing"
+      ],
+      "prevention": [
+        "Use certified disease-free seeds or hot water seed treatment (50\u00b0C for 25 minutes)",
+        "Practice crop rotation with non-solanaceous crops for at least 2 seasons",
+        "Adopt drip irrigation instead of overhead sprinklers to prevent water splash transmission"
+      ],
+      "management": [
+        "At earliest symptom appearance, apply protective copper sprays and remove heavily infected lower foliage"
+      ],
+      "organic_management": [
+        "Seed treatment with Pseudomonas fluorescens @ 10 g/kg seed",
+        "Foliar spray of 1% Bordeaux mixture or copper hydroxide early in the morning",
+        "Spray fresh fermented buttermilk (10%) or 5% Neem Seed Kernel Extract (NSKE) as bio-protective barrier"
+      ],
+      "chemical_management": [
+        "Copper Oxychloride 50% WP @ 2.5 g/L + Streptocycline (Streptomycin sulphate + Tetracycline) @ 100 mg/L (1 g in 10 L water)",
+        "Copper Hydroxide 77% WP @ 2.0 g/L at 10-14 day intervals during rainy spells; observe 15-day PHI"
+      ],
+      "severity_notes": "Bacterial spot can cause up to 50-60% defoliation and severe fruit drop if left uncontrolled during wet monsoon periods.",
+      "source": "ANGRAU Chilli Advisory / ICAR-IIVR Varanasi / TNAU Agritech Portal",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "chilli",
+      "disease_id": "cercospora_leaf_spot",
+      "display_name": "Cercospora Leaf Spot of Chilli (Frogeye Spot)",
+      "scientific_name": "Cercospora capsici",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves",
+        "Petioles",
+        "Stems"
+      ],
+      "symptoms": [
+        "Circular lesions with ash-grey or white centers surrounded by distinct dark-brown or reddish margins ('frogeye' appearance)",
+        "Lesions may enlarge up to 1 cm, become papery, and drop out leaving a 'shot-hole' effect",
+        "Severely infected leaves turn chlorotic, senesce prematurely, and drop"
+      ],
+      "possible_causes": [
+        "Air-borne conidia and resting fungal mycelium on crop residue",
+        "High humidity (>80%) and temperatures between 20-28\u00b0C with frequent cloud cover"
+      ],
+      "prevention": [
+        "Deep summer ploughing to bury fungal conidia and previous harvest residue",
+        "Maintain 60 x 45 cm spacing to provide adequate canopy aeration",
+        "Grow tolerant cultivars (e.g. LCA 334, G-4, Aparna) recommended for the zone"
+      ],
+      "management": [
+        "Begin scouting from 30 days after transplanting; initiate protective fungicidal spray at initial spot detection"
+      ],
+      "organic_management": [
+        "Foliar spray of Trichoderma viride or T. harzianum @ 5 g/L with cow milk (1%) as spreader",
+        "Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or 3% Neem oil at 10-day intervals",
+        "Application of Jeevamrit (10%) to promote foliar antagonistic microflora"
+      ],
+      "chemical_management": [
+        "Mancozeb 75% WP @ 2.5 g/L or Chlorothalonil 75% WP @ 2.0 g/L as protective spray",
+        "Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1.0 ml/L or Tebuconazole 25.9% EC @ 1.0 ml/L for curative control; observe 14-day PHI"
+      ],
+      "severity_notes": "Cercospora leaf spot causes extensive premature defoliation in Krishna-Godavari basin chilli belts, reducing photosynthesis and pod size.",
+      "source": "ICAR-Indian Institute of Horticultural Research (IIHR) / ANGRAU Lam Farm Guntur",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "chilli",
+      "disease_id": "curl_virus",
+      "display_name": "Chilli Leaf Curl Viral Disease (ChiLCV)",
+      "scientific_name": "Chilli leaf curl virus (ChiLCV; Begomovirus)",
+      "disease_type": "Viral",
+      "affected_parts": [
+        "Leaves",
+        "Shoots",
+        "Flowers",
+        "Pods"
+      ],
+      "symptoms": [
+        "Upward leaf curling, puckering, crinkling, and reduction in leaf lamina size",
+        "Thickened veins, shortened internodes causing severe plant stunting and bushy 'witches broom' appearance",
+        "Flower abortion and deformed, small, wrinkled pods resulting in drastic crop loss"
+      ],
+      "possible_causes": [
+        "Whitefly (Bemisia tabaci) vectors transmitting the begomovirus from alternate weeds or solanaceous hosts",
+        "Hot, dry spells during early vegetative growth favoring vector multiplication"
+      ],
+      "prevention": [
+        "Erect yellow sticky cards (15-20 per acre) and blue sticky cards to monitor and trap vector insects",
+        "Grow 2-3 barrier rows of maize, sorghum, or bajra around the chilli field to impede whitefly flight",
+        "Eradicate alternate host weeds (Parthenium, Datura, Abutilon) along field bunds"
+      ],
+      "management": [
+        "Rogue out and destroy viral-infected plants during early vegetative phase before vector transmission spreads"
+      ],
+      "organic_management": [
+        "Nursery protection using 40-mesh insect-proof nylon net",
+        "Foliar spray of cold-pressed Neem oil (10,000 ppm) @ 3.0 ml/L + liquid detergent (0.5 ml/L)",
+        "Release of bio-predator Chrysoperla carnea @ 10,000 larvae/acre to consume whitefly nymphs"
+      ],
+      "chemical_management": [
+        "Flonicamid 50% WG @ 0.3 g/L or Diafenthiuron 50% WP @ 1.2 g/L targeting adult whiteflies",
+        "Pyriproxyfen 10% EC @ 2.0 ml/L or Spiromesifen 22.9% SC @ 1.0 ml/L to inhibit whitefly nymph growth; observe 15-day PHI"
+      ],
+      "severity_notes": "Chilli leaf curl virus is the most destructive viral disease in South Indian chilli cultivation; can cause 70-100% economic yield loss if infection occurs before flowering.",
+      "source": "ICAR-Central Institute for Arid Horticulture / ANGRAU Chilli Pathology Advisory 2024",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "chilli",
+      "disease_id": "healthy",
+      "display_name": "Healthy Chilli Plant",
+      "scientific_name": "Capsicum annuum (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Uniform green, smooth leaf lamina without curling, spots, chlorosis, or necrotic margins",
+        "Normal branching, robust internode elongation, and balanced flowering",
+        "Intact apical buds and healthy white root system"
+      ],
+      "possible_causes": [],
+      "prevention": [
+        "Balanced soil application of NPK (150:60:150 kg/ha) with split nitrogen fertigation",
+        "Regular preventive scouting for sucking pests and foliar spots every 5 days"
+      ],
+      "management": [
+        "Continue scheduled irrigation and weed-free bund management"
+      ],
+      "organic_management": [
+        "Monthly soil drenching with Jeevamrit and foliar application of Panchagavya (3%)"
+      ],
+      "chemical_management": [
+        "No chemical fungicides or insecticides required"
+      ],
+      "severity_notes": "Healthy plant exhibiting optimal vegetative and reproductive development.",
+      "source": "ICAR-IIVR / ANGRAU Package of Practices for Chilli",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "chilli",
+      "disease_id": "nutrition_deficiency",
+      "display_name": "Nutrient Deficiency in Chilli (Chlorosis)",
+      "scientific_name": "Physiological Nutrient Disorder (N-P-K / Fe / Zn / Mg)",
+      "disease_type": "Physiological Disorder",
+      "affected_parts": [
+        "Leaves",
+        "Growing tips"
+      ],
+      "symptoms": [
+        "Interveinal chlorosis (yellowing between green leaf veins) on young or older leaves",
+        "Nitrogen deficiency causes generalized pale yellowing starting from bottom leaves upward",
+        "Iron or zinc deficiency causes prominent interveinal ivory/yellow whitening on terminal growing flushes",
+        "Absence of fungal sporulation, bacterial water-soaking, or insect vectors"
+      ],
+      "possible_causes": [
+        "Alkaline or saline soil pH (>7.8) locking up micronutrients (iron, zinc, manganese)",
+        "Waterlogged or highly compacted soil reducing nutrient uptake",
+        "Imbalanced fertilizer application without micronutrient supplementation"
+      ],
+      "prevention": [
+        "Apply balanced basal fertilizer along with well-decomposed Farm Yard Manure (FYM @ 10 t/acre)",
+        "Conduct soil and leaf petiole test before transplanting to determine precise nutrient dosages"
+      ],
+      "management": [
+        "Apply targeted foliar micronutrient correction sprays during vegetative and flowering stages"
+      ],
+      "organic_management": [
+        "Apply enriched compost or vermicompost (2 tonnes/acre) mixed with biofertilizers (Azospirillum, PSB @ 2 kg/acre)",
+        "Foliar spray of seaweed extract (2 ml/L) or humic acid (3 ml/L) to enhance nutrient absorption"
+      ],
+      "chemical_management": [
+        "For general micronutrient deficiency: Foliar spray of Grade-IV / Formula-4 Micronutrient mixture @ 2.5 g/L",
+        "For Zinc deficiency: Zinc sulphate (ZnSO4 21%) @ 2.0 g/L + citric acid (0.5 g/L)",
+        "For Iron deficiency: Ferrous sulphate (FeSO4 19%) @ 3.0 g/L + citric acid (0.5 g/L) at 10-day intervals"
+      ],
+      "severity_notes": "Nutrient deficiencies weaken plant defense mechanisms, reduce flowering by 30-40%, and predispose plants to secondary fungal infections.",
+      "source": "ICAR-Indian Institute of Spices Research (IISR) / ANGRAU Micronutrient Bulletin",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "chilli",
+      "disease_id": "white_spot",
+      "display_name": "White Spot / Powdery Mildew of Chilli",
+      "scientific_name": "Leveillula taurica (Oidiopsis taurica)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves",
+        "Petioles"
+      ],
+      "symptoms": [
+        "White to grayish powdery fungal growth on the lower leaf surface with corresponding chlorotic yellow patches on the upper surface",
+        "In severe stages, fungal lesions turn into prominent bleached white-gray spots with necrotic centers",
+        "Leaves curl downward, wither, and drop prematurely, leaving bare branches with exposed pods"
+      ],
+      "possible_causes": [
+        "Warm daytime temperatures (25-32\u00b0C) combined with high relative humidity and dry winds",
+        "Dense plant canopy with restricted sunlight and stagnant air"
+      ],
+      "prevention": [
+        "Avoid excessive nitrogen application which promotes soft, succulent foliar growth",
+        "Provide adequate plant spacing (60 x 45 cm) and orient rows in prevailing wind direction",
+        "Clean bunds and remove wild solanaceous host weeds"
+      ],
+      "management": [
+        "Scout lower canopy leaves regularly during flowering and fruit development; spray at earliest sign of white mycelium"
+      ],
+      "organic_management": [
+        "Foliar spray of wettable sulphur 80% WDG @ 2.5 g/L early in the morning before sun heat",
+        "Foliar spray of 10% sour fermented buttermilk or 0.5% baking soda (sodium bicarbonate) solution",
+        "Spray Ampelomyces quisqualis (bio-fungicide) @ 5 g/L against powdery mildew mycelium"
+      ],
+      "chemical_management": [
+        "Sulfur 80% WDG @ 3.0 g/L water or Dinocap 48% EC @ 1.0 ml/L at initial symptom appearance",
+        "Hexaconazole 5% EC @ 1.5 ml/L or Azoxystrobin 23% SC @ 1.0 ml/L or Penconazole 10% EC @ 0.5 ml/L; observe 14-day PHI"
+      ],
+      "severity_notes": "Powdery mildew and white spot can cause up to 40% leaf loss and severe sunscald on chilli pods in semi-arid and sub-humid zones.",
+      "source": "ANGRAU Chilli Protection Manual / ICAR-IIVR Varanasi Technical Bulletin",
+      "last_reviewed": "2026-11-18"
+    },
+    {
+      "crop": "banana",
+      "disease_id": "cordana_leaf_spot",
+      "display_name": "Cordana Leaf Spot of Banana",
+      "scientific_name": "Cordana musae",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves"
+      ],
+      "symptoms": [
+        "Large oval or diamond-shaped pale brown lesions with prominent bright yellow halo borders",
+        "Lesions typically start along the leaf margins and expand inward with faint concentric zonations",
+        "Under humid conditions, grayish-brown velvety fungal sporulation develops on the underside of necrotic spots"
+      ],
+      "possible_causes": [
+        "Prolonged leaf wetness and warm temperatures (24-30\u00b0C)",
+        "Poor field drainage and dense unpruned plantation canopies"
+      ],
+      "prevention": [
+        "Maintain optimal plant spacing (1.8 x 1.8 m or 2.1 x 2.1 m) to improve canopy aeration",
+        "Regular desuckering and removal of dead hanging leaves to reduce humidity",
+        "Ensure proper surface and sub-surface soil drainage during monsoon seasons"
+      ],
+      "management": [
+        "Prune and safely burn or bury heavily spotted lower leaves before fungal sporulation",
+        "Apply foliar protective sprays during early monsoon or initial symptom detection"
+      ],
+      "organic_management": [
+        "Foliar spray of Copper Oxychloride 50% WP @ 2.5 g/L with sticker",
+        "Spray Pseudomonas fluorescens @ 10 g/L or Trichoderma viride @ 5 g/L",
+        "Neem seed kernel extract (NSKE 5%) or 1% horticultural mineral oil spray"
+      ],
+      "chemical_management": [
+        "Mancozeb 75% WP @ 2.5 g/L or Chlorothalonil 75% WP @ 2.0 g/L at early lesion appearance",
+        "Propiconazole 25% EC @ 1.0 ml/L or Difenoconazole 25% EC @ 1.0 ml/L; observe 21-day PHI"
+      ],
+      "severity_notes": "Cordana leaf spot causes significant functional photosynthetic area loss in banana plantations during rainy seasons, leading to smaller bunch sizes.",
+      "source": "ICAR-NRCB National Research Centre for Banana / FAO Banana Compendium",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "crop": "banana",
+      "disease_id": "healthy",
+      "display_name": "Healthy Banana Plant",
+      "scientific_name": "Musa acuminata / Musa balbisiana (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Broad, erect, glossy emerald green leaves without necrotic lesions or chlorosis",
+        "Sturdy pseudostem with clean sheath overlap and vigorous continuous bunch emergence",
+        "Well-anchored root system with active white feeder rootlets"
+      ],
+      "possible_causes": [],
+      "prevention": [
+        "Balanced fertigation scheduling (N-P-K based on tissue and soil testing)",
+        "Regular desuckering keeping only one mother plant and one selected follower ratoon",
+        "Mulching around pseudostem base to conserve moisture and regulate root temperature"
+      ],
+      "management": [
+        "Continue standard agronomic practices, weed management, and periodic pest monitoring"
+      ],
+      "organic_management": [
+        "Apply well-decomposed FYM (20 kg/plant) or vermicompost (5 kg/plant) with biofertilizers (Azospirillum, PSB)"
+      ],
+      "chemical_management": [
+        "None required for healthy crops"
+      ],
+      "severity_notes": "Not applicable - plant displays vigorous healthy vegetative growth.",
+      "source": "ICAR-NRCB Banana Package of Practices",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "crop": "banana",
+      "disease_id": "pestalotiopsis_leaf_spot",
+      "display_name": "Pestalotiopsis Leaf Spot of Banana",
+      "scientific_name": "Pestalotiopsis palmarum (Pestalotiopsis microspora)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves",
+        "Leaf Tips"
+      ],
+      "symptoms": [
+        "Small yellowish or reddish-brown circular spots expanding into irregular bleached grayish-white lesions",
+        "Dark brown to black raised margin separating diseased necrotic tissue from green blade",
+        "Tiny black punctiform pustules (acervuli) visible under hand lens on the bleached central zone"
+      ],
+      "possible_causes": [
+        "Opportunistic fungal colonization following wind damage, mechanical bruising, or insect punctures",
+        "Persistent high relative humidity (>85%) and temperature between 22\u00b0C and 28\u00b0C"
+      ],
+      "prevention": [
+        "Erect windbreaks around banana plantations to prevent wind tear and mechanical leaf tearing",
+        "Avoid damaging foliage during weeding and de-suckering operations",
+        "Maintain soil potassium levels to strengthen epidermal leaf cell walls"
+      ],
+      "management": [
+        "Sanitize canopy by cutting off dried necrotic leaf tips and diseased leaves",
+        "Ensure rapid canopy drying by pruning unproductive side suckers"
+      ],
+      "organic_management": [
+        "Copper Hydroxide 77% WP @ 2.0 g/L or Bordeaux mixture 1% spray",
+        "Foliar spray of Bacillus subtilis biocontrol formulations @ 5 g/L"
+      ],
+      "chemical_management": [
+        "Chlorothalonil 75% WP @ 2.0 g/L or Mancozeb 75% WP @ 2.5 g/L",
+        "Carbendazim 50% WP @ 1.0 g/L or Tebuconazole 25.9% EC @ 1.0 ml/L for advancing infections"
+      ],
+      "severity_notes": "Pestalotiopsis weakens functional leaf surface and accelerates premature senescence, especially when combined with wind damage.",
+      "source": "ICAR-NRCB Tiruchirappalli Technical Manual / CABI Crop Protection",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "crop": "banana",
+      "disease_id": "sigatoka_leaf_spot",
+      "display_name": "Sigatoka Leaf Spot (Black / Yellow Sigatoka)",
+      "scientific_name": "Pseudocercospora musae (Yellow) / Pseudocercospora fijiensis (Black)",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves"
+      ],
+      "symptoms": [
+        "Small faint yellowish-green specks parallel to leaf veins developing into reddish-brown to black spindle streaks",
+        "Centers of older lesions become sunken, bleached ash-grey with prominent dark brown margins and bright yellow halos",
+        "Extensive coalescence of spots leads to rapid leaf blighting, premature leaf collapse, and unfilled bunches"
+      ],
+      "possible_causes": [
+        "Warm humid tropical weather with frequent rainfall or heavy dew (>90% RH, 25-30\u00b0C)",
+        "Stagnant microclimate in densely planted stands with poor air circulation"
+      ],
+      "prevention": [
+        "Adhere to recommended wider spacing (2.1 x 2.1 m) to maximize wind passage",
+        "Systematic de-leafing: remove and bury severely infected leaves at weekly intervals during rainy periods",
+        "Avoid overhead sprinkler irrigation; prefer drip systems to keep foliar canopy dry"
+      ],
+      "management": [
+        "Implement early-season fungicide rotations targeting younger emerging leaves (first 3-4 leaves)"
+      ],
+      "organic_management": [
+        "Spray horticultural mineral oil (1% emulsion) combined with Copper Oxychloride @ 2.0 g/L",
+        "Bio-fungicide foliar applications of Pseudomonas fluorescens @ 10 g/L + cow urine 5%"
+      ],
+      "chemical_management": [
+        "Propiconazole 25% EC @ 1.0 ml/L or Difenoconazole 25% EC @ 1.0 ml/L mixed with 1% mineral oil",
+        "Azoxystrobin 23% SC @ 1.0 ml/L or Trifloxystrobin 25% + Tebuconazole 50% WG @ 0.7 g/L; rotate chemical classes to prevent resistance"
+      ],
+      "severity_notes": "Sigatoka is the most economically devastating foliar disease of banana worldwide, causing up to 50% yield reduction and premature ripening of bunches during transit.",
+      "source": "CIMMYT / ICAR-NRCB Banana Pathology Guidelines",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "crop": "wheat",
+      "disease_id": "healthy",
+      "display_name": "Healthy Wheat Plant",
+      "scientific_name": "Triticum aestivum (Healthy)",
+      "disease_type": "None",
+      "affected_parts": [],
+      "symptoms": [
+        "Uniform vibrant green upright leaf blades without chlorosis, pustules, or blotches",
+        "Vigorous tillering and healthy crown root development",
+        "Uniform spike emergence and clean glumes"
+      ],
+      "possible_causes": [],
+      "prevention": [
+        "Sow certified disease-free seeds treated with Trichoderma or standard seed protectant",
+        "Balanced fertilizer application (120:60:40 kg NPK/ha based on soil test)",
+        "Timely irrigation at critical growth stages (crown root initiation, tillering, jointing, flowering, milk stage)"
+      ],
+      "management": [
+        "Continue standard wheat field management, weed control, and periodic rust scouting"
+      ],
+      "organic_management": [
+        "Application of well-cured compost (10 t/ha), Azotobacter and PSB seed treatment"
+      ],
+      "chemical_management": [
+        "None required for healthy crops"
+      ],
+      "severity_notes": "Not applicable - plant displays healthy vegetative growth.",
+      "source": "ICAR-IIWBR Karnal Wheat Package of Practices",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "crop": "wheat",
+      "disease_id": "leaf_rust",
+      "display_name": "Wheat Leaf Rust (Brown Rust)",
+      "scientific_name": "Puccinia triticina",
+      "disease_type": "Fungal",
+      "affected_parts": [
+        "Leaves",
+        "Leaf Sheaths"
+      ],
+      "symptoms": [
+        "Small, circular to oval orange-brown or reddish-brown powdery pustules (uredinia) scattered randomly over the upper leaf surface",
+        "Pustules rupture the upper leaf epidermis, shedding millions of fine rust-colored spores upon contact",
+        "Severely rusted leaves turn yellow, chlorotic, and wither prematurely, shriveling grain fill"
+      ],
+      "possible_causes": [
+        "Moderate temperatures (15-25\u00b0C) coupled with overnight dew formation and free moisture on leaf blades",
+        "Airborne transport of urediniospores from warm winter-growing regions"
+      ],
+      "prevention": [
+        "Cultivate certified rust-resistant wheat varieties (e.g., HD-2967, DBW-187, DBW-303, PBW-725)",
+        "Avoid late sowing to prevent exposure to warm late-spring rust buildup",
+        "Avoid excessive nitrogen fertilization which creates succulent foliage highly susceptible to rust colonization"
+      ],
+      "management": [
+        "Regular weekly scouting of flag leaves during booting and flowering; initiate action at first pustule appearance"
+      ],
+      "organic_management": [
+        "Foliar spray of 5% Neem Seed Kernel Extract (NSKE) or bio-fungicide Bacillus amyloliquefaciens @ 5 g/L",
+        "Foliar spray of cow urine (10%) mixed with fermented butter milk"
+      ],
+      "chemical_management": [
+        "Propiconazole 25% EC @ 1.0 ml/L (500 ml/ha in 500 L water) at the very first sign of brown pustules",
+        "Tebuconazole 25.9% EC @ 1.0 ml/L or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1.0 ml/L; observe 30-day PHI"
+      ],
+      "severity_notes": "Leaf rust can reduce wheat yield by 20% to 50% and severely decrease thousand-kernel weight (TKW) when flag leaves are infected before grain filling.",
+      "source": "ICAR-IIWBR Indian Institute of Wheat & Barley Research / CIMMYT Wheat Pathology",
+      "last_reviewed": "2026-11-19"
+    },
+    {
+      "crop": "wheat",
+      "disease_id": "nitrogen_deficiency",
+      "display_name": "Wheat Nitrogen Deficiency",
+      "scientific_name": "Abiotic Plant Nutritional Disorder (Nitrogen Deficit)",
+      "disease_type": "Nutritional Deficiency",
+      "affected_parts": [
+        "Lower Leaves",
+        "Whole Plant"
+      ],
+      "symptoms": [
+        "Generalized uniform pale green to pale yellow discoloration (chlorosis) initiating on the oldest lower leaves",
+        "Yellowing begins at the leaf tip and progresses down the midrib toward the leaf base in a distinct 'V' shape",
+        "Stunted erect plant growth, reduced tiller numbers, thin stems, and small pale spikes"
+      ],
+      "possible_causes": [
+        "Insufficient nitrogen fertilizer application or severe leaching in sandy soils due to excessive irrigation or heavy rains",
+        "Waterlogged soil conditions inducing denitrification and inhibiting root nitrogen absorption"
+      ],
+      "prevention": [
+        "Conduct pre-sowing soil fertility tests to calculate nitrogen deficit",
+        "Split application of nitrogen: 50% basal dose at sowing, 25% at first irrigation (CRI stage), and 25% at second irrigation (tillering/jointing)",
+        "Incorporate green manure crops (Sesbania) or farmyard manure prior to field preparation"
+      ],
+      "management": [
+        "Apply immediate nitrogen top-dressing before irrigating the crop",
+        "For rapid leaf absorption, administer foliar urea sprays"
+      ],
+      "organic_management": [
+        "Foliar application of liquid Jeevamrut @ 10% or vermiwash @ 5% during vegetative stages",
+        "Seed inoculation with Azotobacter biofertilizer (200 g/10 kg seed)"
+      ],
+      "chemical_management": [
+        "Top-dressing with Prilled Urea @ 25-35 kg/acre just prior to irrigation",
+        "Foliar spray of 2.0% Urea solution (20 g Urea/L water) for rapid recovery under standing crop conditions"
+      ],
+      "severity_notes": "Nitrogen deficiency directly curtails tillering capacity and grain protein content, leading to drastic yield reductions (up to 40%).",
+      "source": "ICAR-IIWBR Nutrient Management Guidelines / FAO Fertilizer Manual",
+      "last_reviewed": "2026-11-19"
+    }
+  ]
+}
